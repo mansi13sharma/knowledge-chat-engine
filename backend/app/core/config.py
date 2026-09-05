@@ -7,6 +7,9 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     openai_model: str = "gpt-4o-mini"
 
+    groq_api_key: str = ""
+    groq_model: str = "llama-3.3-70b-versatile"
+
     database_url: str = "postgresql://postgres:postgres@localhost:5432/tef_chatbot"
 
     chroma_persist_dir: str = "./chroma_data"
@@ -15,6 +18,11 @@ class Settings(BaseSettings):
     kb_data_dir: str = "./knowledgebase"
     faq_collection_name: str = "faqs"
     kb_collection_name: str = "knowledge_base"
+
+    # Admin knowledge-base upload limit. Centralized here (rather than a
+    # literal scattered across the upload route / frontend copy) so it can be
+    # tuned via env without touching code.
+    kb_max_upload_mb: int = 10
 
     faq_top_k: int = 3
     kb_top_k: int = 4

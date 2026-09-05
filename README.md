@@ -26,6 +26,23 @@ User → React chat UI → POST /chat → LangGraph pipeline → answer / escala
 
 See [`backend/README.md`](backend/README.md) and [`frontend/README.md`](frontend/README.md) for setup details of each half, and [`CLAUDE.md`](CLAUDE.md) for the full architecture reference.
 
+## Knowledge Base Management
+
+An admin dashboard at the frontend's `/admin` route lets you manage the chatbot's knowledge-base documents through the UI instead of manually copying files into `backend/knowledgebase/` and running the ingestion script.
+
+- **Supported formats**: PDF, DOCX, TXT, MD (rejected otherwise), up to `KB_MAX_UPLOAD_MB` (default 10 MB).
+- **How upload works**: pick a category (freeform — no longer tied to any fixed list) and a file. The backend validates it, saves it under `backend/knowledgebase/<category>/`, extracts its text, splits it into chunks, and indexes those chunks into the existing Chroma `knowledge_base` collection — the same collection the chat pipeline's KB layer already queries, so a newly uploaded document is immediately answerable by the normal chatbot.
+- **Where documents are stored**: `backend/knowledgebase/<category>/<filename>` — category and filename are sanitized (no `../`, no path separators) before ever touching the filesystem.
+- **Registry**: each document's status (`processing` / `indexed` / `failed`), chunk count, and metadata live in a `knowledge_documents` Postgres table (`KnowledgeDocument` model) — this is the source of truth for the dashboard, not in-memory state, so it survives a backend restart.
+- **Re-index**: re-extracts and re-chunks the document from the file already on disk, deleting its previous Chroma vectors first — repeated re-indexing never accumulates duplicate vectors for the same document.
+- **Delete**: removes the file, its `knowledge_documents` row, and all of its Chroma vectors.
+- **Required env vars**: `KB_MAX_UPLOAD_MB` (backend, see `backend/.env.example`) and `VITE_API_BASE_URL` (frontend, see `frontend/.env.example`).
+- **Access**: run both apps as below, then open `http://localhost:5173/admin`.
+
+The manual CLI ingestion path (`python -m scripts.ingest ...`) still works and now shares the same underlying ingestion/indexing code as the admin API — see [`backend/README.md`](backend/README.md#ingestion).
+
+> **Security note**: the admin API (`/api/admin/knowledge-base/*`) has no authentication. It's structured so a dependency-based auth check can be added later, but as-is it should not be exposed on anything but a local/trusted environment — see the `TODO(production)` comment in `backend/app/api/routes/admin_knowledge_base.py`.
+
 ## Getting started
 
 ### Backend
@@ -45,7 +62,11 @@ uvicorn app.main:app --reload
 ```
 cd frontend
 npm install
+cp .env.example .env   # VITE_API_BASE_URL, defaults to http://127.0.0.1:8000
 npm run dev
 ```
 
-Requires a running PostgreSQL instance matching `DATABASE_URL` (used for support tickets) and a `GROQ_API_KEY` for LLM calls. Chroma persists locally to `backend/chroma_data/` — no separate vector DB service needed.
+- `/` — the chat widget
+- `/admin` — the knowledge-base admin dashboard (see above)
+
+Requires a running PostgreSQL instance matching `DATABASE_URL` (used for support tickets and the knowledge-base document registry) and a `GROQ_API_KEY` for LLM calls. Chroma persists locally to `backend/chroma_data/` — no separate vector DB service needed.

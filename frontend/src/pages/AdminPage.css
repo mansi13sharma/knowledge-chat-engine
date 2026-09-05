@@ -1,0 +1,470 @@
+/* Admin Knowledge Base Dashboard — reuses the palette custom properties
+   defined globally in index.css (--primary-red, --bg-white, etc). */
+
+.admin-shell {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 72px;
+  box-sizing: border-box;
+}
+
+.admin-header {
+  margin-bottom: 28px;
+}
+
+.admin-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.8rem;
+  color: var(--text-dark);
+}
+
+.admin-header p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* Stat cards */
+
+.kb-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--bg-white);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-light);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 28px rgba(168, 32, 26, 0.06);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-red);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Shared card */
+
+.kb-card {
+  background: var(--bg-white);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  padding: 24px 26px;
+  box-shadow: 0 10px 28px rgba(168, 32, 26, 0.06);
+  margin-bottom: 24px;
+}
+
+.kb-card h2 {
+  margin: 0 0 18px;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+}
+
+/* Upload form */
+
+.upload-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.upload-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex: 1 1 220px;
+}
+
+.upload-field input {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--text-dark);
+}
+
+.upload-field input:focus {
+  outline: none;
+  border-color: var(--primary-red);
+}
+
+.upload-hint {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.file-preview {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 14px;
+  background: var(--primary-red-light);
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.file-preview-name {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.file-preview-meta {
+  color: var(--text-muted);
+}
+
+.upload-form button[type="submit"] {
+  background: var(--primary-red);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 22px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  white-space: nowrap;
+}
+
+.upload-form button[type="submit"]:hover:not(:disabled) {
+  background: var(--primary-red-hover);
+}
+
+.upload-form button[type="submit"]:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Document list header / filters */
+
+.kb-list-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.kb-list-header h2 {
+  margin: 0;
+}
+
+.kb-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.kb-filters input,
+.kb-filters select {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--text-dark);
+}
+
+.kb-filters input:focus,
+.kb-filters select:focus {
+  outline: none;
+  border-color: var(--primary-red);
+}
+
+/* Table */
+
+.kb-table-wrap {
+  overflow-x: auto;
+}
+
+.kb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.kb-table th {
+  text-align: left;
+  padding: 10px 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.kb-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: top;
+}
+
+.doc-name {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.doc-error {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  color: var(--primary-red);
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--primary-red-light);
+  color: var(--primary-red);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.status-indexed {
+  background: rgba(46, 196, 182, 0.15);
+  color: #1a8a80;
+}
+
+.status-processing {
+  background: rgba(255, 179, 71, 0.2);
+  color: #a35b00;
+}
+
+.status-failed {
+  background: rgba(231, 29, 54, 0.15);
+  color: #b3122a;
+}
+
+.doc-actions {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.doc-actions button {
+  font-family: inherit;
+  font-size: 0.82rem;
+  padding: 7px 12px;
+  border-radius: 9px;
+  border: 1px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.doc-actions button:hover:not(:disabled) {
+  border-color: var(--primary-red);
+  color: var(--primary-red);
+}
+
+.doc-actions button.danger {
+  color: #b3122a;
+}
+
+.doc-actions button.danger:hover:not(:disabled) {
+  background: rgba(231, 29, 54, 0.1);
+  border-color: #b3122a;
+}
+
+.doc-actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Status / empty states */
+
+.kb-status-text {
+  color: var(--text-muted);
+  padding: 20px 0;
+}
+
+.kb-status-error {
+  color: var(--primary-red);
+}
+
+.kb-empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--text-muted);
+}
+
+.kb-empty-state p:first-child {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.kb-empty-subtext {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Delete confirmation modal */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 16, 14, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+}
+
+.modal-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 24px 26px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.modal-card h3 {
+  margin: 0 0 10px;
+  color: var(--text-dark);
+}
+
+.modal-card p {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-actions button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 9px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.modal-actions button.danger {
+  background: var(--primary-red);
+  color: #fff;
+  border-color: var(--primary-red);
+}
+
+.modal-actions button.danger:hover:not(:disabled) {
+  background: var(--primary-red-hover);
+}
+
+.modal-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Toast */
+
+.kb-toast {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+  max-width: 360px;
+  animation: kb-toast-in 0.2s ease;
+}
+
+@keyframes kb-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kb-toast-success {
+  background: #1a8a80;
+  color: #fff;
+}
+
+.kb-toast-error {
+  background: var(--primary-red);
+  color: #fff;
+}
+
+.kb-toast-close {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Small screens */
+
+@media (max-width: 700px) {
+  .kb-stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .upload-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .kb-list-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .kb-filters {
+    flex-direction: column;
+  }
+}

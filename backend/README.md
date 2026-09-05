@@ -27,8 +27,8 @@ Fill in `.env`:
 
 | Key | Purpose |
 |---|---|
-| `OPENAI_API_KEY` | OPENAI API key, used for every LLM call in the pipeline |
-| `OPENAI_MODEL` | OPENAI model id (default `gpt-4o-mini`) |
+| `GROQ_API_KEY` | Groq API key, used for every LLM call in the pipeline |
+| `GROQ_MODEL` | Groq model id (default `llama-3.3-70b-versatile`) |
 | `DATABASE_URL` | Postgres connection string, used only for `support_tickets` |
 | `CHROMA_PERSIST_DIR` | Local folder Chroma persists to (default `./chroma_data`) |
 | `FAQ_DATA_DIR` / `KB_DATA_DIR` | Source folders for ingestion (default `./faq`, `./knowledgebase`) |
@@ -41,8 +41,9 @@ Fill in `.env`:
 | `CONFIDENCE_RETRIEVAL_WEIGHT` | Weight of retrieval-similarity vs. LLM score in the KB confidence hybrid |
 | `SUPPORT_EMAIL` / `SUPPORT_PHONE` | Contact info surfaced to the user on escalation |
 | `FRONTEND_ORIGIN` | Allowed CORS origin for the React app |
+| `KB_MAX_UPLOAD_MB` | Max file size (MB) accepted by the admin knowledge-base upload endpoint (default 10) |
 
-`OPENAI_API_KEY` and `DATABASE_URL` are secrets — `.env` is gitignored, never commit it.
+`GROQ_API_KEY` and `DATABASE_URL` are secrets — `.env` is gitignored, never commit it.
 
 You also need a reachable Postgres database matching `DATABASE_URL` (only used for `support_tickets` — create the role/db yourself if they don't exist yet, e.g. `createuser <user> && createdb -O <user> tef_chatbot`). Tables are created automatically on app startup (`Base.metadata.create_all` in `app/main.py`), no migration step needed.
 
@@ -56,7 +57,7 @@ backend/
   knowledgebase/<Category>/*.docx|.pdf|.txt|.md
 ```
 
-Category folders currently present in both trees: `audit/`, `common/`, `entrepreneur Onboarding/`, `lms/`, `m&e/`, `mentorship/`, `pitching/` — each `knowledgebase/<Category>` holds the real manuals, each `faq/<Category>` should hold that category's FAQ JSON file(s) (`common/` is for general, cross-category FAQs like "How do I reset my password?"). Only `faq/common/general.json` has real content today; the other category folders just have an empty `readme.md` placeholder — add a `.json` file there (any filename, `*.json`) in this shape:
+Categories are just folder names — nothing in the code hardcodes a fixed category list (`app/services/query_understanding.py`'s `list_categories()` derives valid intents from whatever folders exist under `faq/` at request time, and the knowledge-base ingestion path — CLI or admin API — accepts any category name). Both `faq/` and `knowledgebase/` currently start empty (portfolio content is added per-deployment, not checked in) — create category folders as needed, or let the admin dashboard's upload form create one for you. Add a `.json` file to `faq/<Category>/` (any filename, `*.json`) in this shape:
 
 ```json
 [
@@ -74,7 +75,33 @@ python -m scripts.ingest --collection knowledge_base --path ./knowledgebase
 python -m scripts.ingest --collection faq             --path ./faq
 ```
 
-Add `--reset` to clear a collection before re-ingesting (needed if you edited or removed existing entries, not just added new ones — otherwise stale chunks stay in Chroma alongside the new ones).
+Add `--reset` to clear a collection entirely before re-ingesting.
+
+For the knowledge-base collection specifically, `--reset` is no longer required just to pick up edits to an existing file: each file is indexed under a `document_id` derived from its path, and re-ingesting a file first deletes that file's previous chunks before adding the new ones (see `app/services/knowledge_base/ingestion.py`), so running the command again after editing a file won't leave stale chunks behind. `--reset` is still the right tool for removing chunks belonging to files you deleted from disk, or for clearing a collection outright. FAQ ingestion (`--collection faq`) is unchanged and still needs `--reset` after edits.
+
+This same ingestion/indexing code is shared with the **admin knowledge-base API** below — uploading a file through the dashboard and running this CLI script both go through `app/services/knowledge_base/ingestion.py`, so there's one place that knows how to turn a file into indexed Chroma chunks.
+
+## Admin Knowledge Base API
+
+`app/api/routes/admin_knowledge_base.py`, mounted at `/api/admin/knowledge-base`, lets an admin manage knowledge-base documents over HTTP instead of the CLI — see the root [`README.md`](../README.md#knowledge-base-management) for the user-facing walkthrough and the frontend's `/admin` dashboard. Endpoints:
+
+| Method | Path | Purpose |
+|---|---|---|
+| `POST` | `/documents` | Upload (`multipart/form-data`: `file`, `category`), extract, chunk, and index a document |
+| `GET` | `/documents` | List all registered documents (status, category, chunk count, etc.) |
+| `DELETE` | `/documents/{document_id}` | Delete a document's file, Chroma vectors, and registry row |
+| `POST` | `/documents/{document_id}/reindex` | Re-extract/re-chunk/re-index a document from the file already on disk, replacing its previous vectors |
+| `GET` | `/stats` | Total indexed documents / chunks / categories (+ per-category counts) |
+
+Document metadata (filename, category, status, chunk count, timestamps, error message) lives in the `knowledge_documents` table (`KnowledgeDocument` in `app/db/models.py`) — this is the source of truth for the dashboard, not in-memory state, so it survives a backend restart. Each Chroma chunk is tagged with the owning document's stable `document_id`, plus `filename`/`category`/`chunk` index and, for PDFs, a `page` number (never invented for formats without one) — this is what makes "delete/re-index this document's vectors only" possible without touching any other document's chunks.
+
+**Not yet done**: these routes have no authentication. They're structured so an auth dependency can be dropped in later, but as shipped, anyone who can reach the backend can upload/delete knowledge-base content — see the `TODO(production)` note at the top of `admin_knowledge_base.py`. Don't expose this beyond a local/trusted environment as-is.
+
+Run the test suite (isolated from the real `chroma_data/`/`knowledgebase/`/database via `tests/conftest.py`, which points every dependency at a temp directory before `app` is ever imported):
+
+```
+pytest
+```
 
 ## Running
 
@@ -114,3 +141,4 @@ curl -s localhost:8000/chat -H 'content-type: application/json' \
 - `app/services/synthesis.py` — shared final-answer generation, used by both the FAQ-hit and KB-pass paths
 - `app/services/support.py` — support ticket creation + escalation message
 - `app/services/pipeline.py` — builds/invokes the graph per request, maps the result to a `ChatResult`
+- `app/services/knowledge_base/ingestion.py`, `documents.py` — shared document extraction/chunking/Chroma-indexing (`ingestion.py`) and filename/category sanitization + the `KnowledgeDocument` registry CRUD (`documents.py`), used by both `scripts/ingest.py` and the admin API above

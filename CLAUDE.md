@@ -20,7 +20,7 @@ When working on any stage of this pipeline, preserve this routing order (FAQ →
 - Frontend: React (Vite) — `frontend/`
 - Backend: Python (FastAPI) — `backend/`
 - Orchestration: LangGraph (`backend/app/services/graph/`) — the pipeline is a `StateGraph` with retry loops (FAQ/KB) and conditional edges (confidence gate, escalation). LangChain is used only inside the ingestion script for document loaders/text splitting, not for the graph itself.
-- LLM: OPENAI (`backend/app/services/llm.py`)
+- LLM: Groq (`backend/app/services/llm.py`)
 - Vector DB: Chroma, persisted to `backend/chroma_data/`, two collections (`faqs`, `knowledge_base`) via `backend/app/services/vectorstore/chroma_client.py`. Embeddings are Chroma's bundled local default (no external embeddings API).
 - Database: PostgreSQL via SQLAlchemy (`backend/app/db/`) — used only for `SupportTicket` rows now (FAQs moved to files, see below).
 
@@ -38,18 +38,30 @@ When working on any stage of this pipeline, preserve this routing order (FAQ →
 - `backend/app/services/synthesis.py` — shared answer-synthesis node (used by both FAQ and KB success paths)
 - `backend/app/services/followup.py` — follow-up-question node + the escalation-decision router (counts consecutive unsuccessful turns from `chat_history`, gated by `settings.max_followup_attempts`)
 - `backend/app/services/support.py` — support ticket creation + escalation node
-- `backend/app/db/models.py` — `SupportTicket` table
+- `backend/app/db/models.py` — `SupportTicket` table, `KnowledgeDocument` table (admin KB registry, see below)
 - `backend/faq/<Category>/*.json` — FAQ content, one JSON array of `{question, answer}` per file, category folders mirror `backend/knowledgebase/`
 - `backend/knowledgebase/<Category>/...` — knowledge-base source documents (.docx/.pdf/.txt/.md)
-- `backend/scripts/ingest.py` — ingestion script for both collections: `python -m scripts.ingest --collection knowledge_base --path ./knowledgebase` / `--collection faq --path ./faq`
+- `backend/scripts/ingest.py` — CLI ingestion for both collections: `python -m scripts.ingest --collection knowledge_base --path ./knowledgebase` / `--collection faq --path ./faq`
 
-`backend/faq/` currently only has placeholder/general FAQ content (`Common/general.json`) plus empty per-category `readme.md` markers — real FAQ authoring per category is an ongoing content task, not a code task. After adding/editing a `.json` file there, re-run the `faq` ingestion command above (add `--reset` first if you edited existing entries rather than just adding new ones).
+`backend/faq/` and `backend/knowledgebase/` both currently start empty — this project was converted from a client deployment into a portfolio project and the old client-specific content was intentionally removed; category folders are created on demand (by the CLI's source tree, or by the admin dashboard's upload form) rather than assumed to exist.
+
+### Admin Knowledge Base Management
+
+Lets an admin manage KB documents through the UI (`frontend/src/pages/AdminPage.jsx`, at `/admin`) instead of manually placing files under `backend/knowledgebase/` and running the CLI.
+
+- `backend/app/api/routes/admin_knowledge_base.py` — the `/api/admin/knowledge-base` router: upload (`POST /documents`), list (`GET /documents`), delete (`DELETE /documents/{id}`), re-index (`POST /documents/{id}/reindex`), stats (`GET /stats`). **Unauthenticated** — see the `TODO(production)` at the top of the file before deploying this anywhere but local/portfolio use.
+- `backend/app/services/knowledge_base/ingestion.py` — shared document extraction (`extract_pages`, PDF pages preserved via loader metadata, never invented for docx/txt/md), chunking (`split_document`), and Chroma indexing (`index_document`, `delete_document_vectors`) — used by **both** the CLI script and this API, so there is exactly one place that turns a file into indexed chunks.
+- `backend/app/services/knowledge_base/documents.py` — category/filename sanitization (blocks path traversal), safe on-disk path resolution, and the `KnowledgeDocument` registry CRUD (source of truth for document status/chunk-count across a backend restart — not in-memory state).
+- Every chunk is tagged with a stable `document_id` (the `KnowledgeDocument.id`, or a path-derived UUID5 for CLI-ingested files) alongside `filename`/`category`/`chunk`/`page` metadata — `index_document` always deletes a document's previous vectors before adding new ones, so re-indexing never accumulates duplicates.
+- Tests: `backend/tests/` (`pytest`, run from `backend/`) — `conftest.py` points Chroma/KB-folder/DB env vars at a temp directory before `app` is imported, so tests never touch real `chroma_data/`/`knowledgebase/`/the real database.
+
+After adding/editing a FAQ `.json` file under `backend/faq/`, re-run the `faq` ingestion command above (add `--reset` first if you edited existing entries rather than just adding new ones) — FAQ ingestion is unchanged by the above.
 
 ## Conventions
 
 - Backend: run from `backend/` with a venv (`python3 -m venv .venv`), deps in `requirements.txt`, config via `.env` (see `.env.example`) loaded through `app/core/config.py` (pydantic-settings).
 - Frontend: standard Vite React app in `frontend/`, run with `npm install && npm run dev`.
-- Secrets (`OPENAI_API_KEY`, `DATABASE_URL`) live in `backend/.env`, which is gitignored — never commit it.
+- Secrets (`GROQ_API_KEY`, `DATABASE_URL`) live in `backend/.env`, which is gitignored — never commit it.
 
 ## Automatic Change Logging
 

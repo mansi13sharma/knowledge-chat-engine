@@ -27,27 +27,16 @@ body {
   background: var(--bg-peach-gradient);
   color: var(--text-dark);
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Layout sizing lives on each page's own wrapper (.chat-shell / .admin-shell)
+   rather than here, so /admin can use the full page width instead of being
+   boxed into the chat widget's centered 950px card. */
 #root {
   width: 100%;
-  max-width: 950px;
-  height: 90vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-  #root {
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-  }
 }

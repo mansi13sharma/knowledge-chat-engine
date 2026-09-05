@@ -12,13 +12,20 @@ import sys
 import uuid
 from pathlib import Path
 
-from langchain_community.document_loaders import Docx2txtLoader, PyPDFLoader, TextLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
+from app.services.knowledge_base.documents import ALLOWED_EXTENSIONS as KB_SUFFIXES
+from app.services.knowledge_base.ingestion import (
+    DocumentExtractionError,
+    extract_pages,
+    index_document,
+    split_document,
+)
 from app.services.vectorstore.chroma_client import faqs, knowledge_base
 
-KB_SUFFIXES = {".txt", ".md", ".pdf", ".docx"}
-_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+# Fixed namespace so the same source path always hashes to the same
+# document_id across runs — that's what lets `index_document` delete a file's
+# previous chunks before re-adding them, so re-running this script without
+# `--reset` no longer accumulates duplicate vectors for unchanged files.
+_CLI_DOCUMENT_NAMESPACE = uuid.UUID("6f6a9f0d-6e94-4b8b-9b8a-2f6a4b1e9c11")
 
 
 def _category_for(file_path: Path, root: Path) -> str:
@@ -26,12 +33,8 @@ def _category_for(file_path: Path, root: Path) -> str:
     return rel.parts[0] if len(rel.parts) > 1 else "root"
 
 
-def _load_text(file_path: Path) -> str:
-    if file_path.suffix == ".pdf":
-        return "\n\n".join(d.page_content for d in PyPDFLoader(str(file_path)).load())
-    if file_path.suffix == ".docx":
-        return "\n\n".join(d.page_content for d in Docx2txtLoader(str(file_path)).load())
-    return TextLoader(str(file_path), encoding="utf-8").load()[0].page_content
+def _document_id_for(source: str) -> str:
+    return uuid.uuid5(_CLI_DOCUMENT_NAMESPACE, source).hex
 
 
 def ingest_knowledge_base(root: Path) -> int:
@@ -40,22 +43,24 @@ def ingest_knowledge_base(root: Path) -> int:
         if not (file_path.is_file() and file_path.suffix.lower() in KB_SUFFIXES):
             continue
 
-        text = _load_text(file_path)
-        if not text.strip():
-            print(f"skip (empty): {file_path}")
-            continue
-
-        chunks = _SPLITTER.split_text(text)
         source = str(file_path.relative_to(root))
         category = _category_for(file_path, root)
 
-        knowledge_base.add(
-            ids=[f"{source}::{i}::{uuid.uuid4().hex[:8]}" for i in range(len(chunks))],
-            documents=chunks,
-            metadatas=[{"source": source, "category": category, "chunk": i} for i in range(len(chunks))],
-        )
-        print(f"ingested {len(chunks)} chunk(s) from {source}")
-        total_chunks += len(chunks)
+        try:
+            pages = extract_pages(file_path)
+            chunks = split_document(pages)
+        except DocumentExtractionError as e:
+            print(f"skip (extraction failed): {file_path} ({e})")
+            continue
+
+        if not chunks:
+            print(f"skip (empty): {file_path}")
+            continue
+
+        document_id = _document_id_for(source)
+        chunk_count = index_document(document_id, file_path.name, category, source, chunks)
+        print(f"ingested {chunk_count} chunk(s) from {source}")
+        total_chunks += chunk_count
     return total_chunks
 
 

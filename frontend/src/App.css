@@ -1,5 +1,60 @@
 /* App.css - Premium Peach & Crimson Chatbot Styling */
 
+/* Top navigation between the chat widget ("/") and the admin dashboard
+   ("/admin"). Sits in normal document flow above whichever page is active. */
+.top-nav {
+  display: flex;
+  gap: 4px;
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg-white);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.top-nav a:hover {
+  color: var(--text-red);
+}
+
+.top-nav a.active {
+  background: var(--primary-red);
+  color: #fff;
+}
+
+/* Chat widget shell — the centered, fixed-height card the chat UI lives in.
+   Was previously applied directly to #root; moved here so #root itself can
+   stay unconstrained for other pages (e.g. the full-width admin dashboard). */
+.chat-shell {
+  width: 100%;
+  max-width: 950px;
+  height: calc(100vh - 68px);
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .chat-shell {
+    height: calc(100vh - 60px);
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
