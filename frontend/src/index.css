@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  
+  /* Color Palette: Light Peach & Crimson/Red */
+  --bg-peach: #FFF0E6; /* Light peach */
+  --bg-peach-gradient: linear-gradient(135deg, #FFF6F0 0%, #FFE5D9 100%);
+  
+  --primary-red: #A8201A; /* Deep premium red */
+  --primary-red-hover: #8A1510;
+  --primary-red-light: #FFDAD3;
+  --primary-red-glow: rgba(168, 32, 26, 0.15);
+  
+  --text-dark: #3A100E; /* Deep red-black */
+  --text-red: #A8201A; /* Primary red text */
+  --text-muted: #8F6D6B; /* Soft muted rose-gray */
+  
+  --bg-white: rgba(255, 255, 255, 0.85);
+  --border-light: rgba(168, 32, 26, 0.12);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-peach-gradient);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  max-width: 950px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #root {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+}

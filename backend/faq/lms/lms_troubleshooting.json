@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lms_trouble_001",
+    "question": "I can't access the LMS module. What should I do?",
+    "answer": "Ensure your onboarding and verification are complete. If the issue persists, contact platform support.",
+    "keywords": ["lms", "access", "login", "verification"]
+  },
+  {
+    "id": "lms_trouble_002",
+    "question": "Why can't I see the 'Start Training' button?",
+    "answer": "The button becomes available only after your onboarding and verification are completed and you're enrolled in a training programme.",
+    "keywords": ["start training", "button", "enrollment"]
+  },
+  {
+    "id": "lms_trouble_003",
+    "question": "The participation agreement is not appearing. What should I do?",
+    "answer": "If you've already accepted it, it won't appear again. If this is your first login and it's missing, refresh the page or contact support.",
+    "keywords": ["agreement", "first login", "missing"]
+  },
+  {
+    "id": "lms_trouble_004",
+    "question": "I accidentally closed the participation agreement. Can I open it again?",
+    "answer": "Log out and log back in. If it's still unavailable and hasn't been accepted, contact support.",
+    "keywords": ["agreement", "closed", "login"]
+  },
+  {
+    "id": "lms_trouble_005",
+    "question": "I cannot proceed because I haven't accepted the participation agreement.",
+    "answer": "Accepting the participation agreement is mandatory before starting your training.",
+    "keywords": ["agreement", "mandatory", "training"]
+  },
+  {
+    "id": "lms_trouble_006",
+    "question": "My assigned course isn't visible.",
+    "answer": "Verify that you've selected the correct training type and programme. If it's still missing, contact the programme administrator.",
+    "keywords": ["course", "missing", "programme"]
+  },
+  {
+    "id": "lms_trouble_007",
+    "question": "I can't open my course.",
+    "answer": "Refresh the page, log in again, and ensure your internet connection is stable. If the issue continues, contact support.",
+    "keywords": ["course", "open", "error"]
+  },
+  {
+    "id": "lms_trouble_008",
+    "question": "The course content isn't loading.",
+    "answer": "Check your internet connection, refresh the page, or try another browser. If the issue persists, report it to support.",
+    "keywords": ["content", "loading", "video"]
+  },
+  {
+    "id": "lms_trouble_009",
+    "question": "The video won't play.",
+    "answer": "Refresh the page, verify your internet connection, or try another supported browser.",
+    "keywords": ["video", "playback", "media"]
+  },
+  {
+    "id": "lms_trouble_010",
+    "question": "The PPT or case study won't open.",
+    "answer": "Reload the page and try again. If the file remains inaccessible, notify support.",
+    "keywords": ["ppt", "case study", "document"]
+  },
+  {
+    "id": "lms_trouble_011",
+    "question": "The pre-test isn't starting.",
+    "answer": "Refresh the course page and ensure your browser is fully loaded. Contact support if the issue continues.",
+    "keywords": ["pre-test", "assessment"]
+  },
+  {
+    "id": "lms_trouble_012",
+    "question": "I accidentally exited the pre-test.",
+    "answer": "Reopen the course and resume if allowed. If you're unable to continue, contact support.",
+    "keywords": ["pre-test", "resume"]
+  },
+  {
+    "id": "lms_trouble_013",
+    "question": "I cannot move to the next module.",
+    "answer": "Ensure you've completed all required content and assessments in the current module before proceeding.",
+    "keywords": ["next module", "progress"]
+  },
+  {
+    "id": "lms_trouble_014",
+    "question": "My course progress isn't updating.",
+    "answer": "Refresh the page after completing the module. If your progress still isn't updated, contact support.",
+    "keywords": ["progress", "tracking"]
+  },
+  {
+    "id": "lms_trouble_015",
+    "question": "The post-test isn't available.",
+    "answer": "Complete all required learning modules first. The post-test appears only after course content is finished.",
+    "keywords": ["post-test", "completion"]
+  },
+  {
+    "id": "lms_trouble_016",
+    "question": "I can't skip the post-test.",
+    "answer": "The post-test is mandatory and must be completed before finishing the course.",
+    "keywords": ["post-test", "mandatory"]
+  },
+  {
+    "id": "lms_trouble_017",
+    "question": "The 'Mark as Completed' button is disabled.",
+    "answer": "Complete all required modules and the post-test before marking the course as completed.",
+    "keywords": ["mark completed", "button"]
+  },
+  {
+    "id": "lms_trouble_018",
+    "question": "I completed the course but it's not marked as completed.",
+    "answer": "Ensure you've clicked 'Mark as Completed'. If you've already done so, refresh the page or contact support.",
+    "keywords": ["course completed", "status"]
+  },
+  {
+    "id": "lms_trouble_019",
+    "question": "My reminder notification wasn't received.",
+    "answer": "Check your notification settings and email inbox, including spam folders. If necessary, contact support.",
+    "keywords": ["reminder", "notification"]
+  },
+  {
+    "id": "lms_trouble_020",
+    "question": "I can't create a reminder.",
+    "answer": "Refresh the page and try again. If reminders are still unavailable, report the issue to support.",
+    "keywords": ["reminder", "schedule"]
+  },
+  {
+    "id": "lms_trouble_021",
+    "question": "The discussion forum isn't loading.",
+    "answer": "Refresh the page and check your internet connection. If the problem continues, contact support.",
+    "keywords": ["discussion", "forum"]
+  },
+  {
+    "id": "lms_trouble_022",
+    "question": "I can't post in the discussion forum.",
+    "answer": "Ensure you're enrolled in the course. If the issue persists, contact support.",
+    "keywords": ["forum", "discussion", "post"]
+  },
+  {
+    "id": "lms_trouble_023",
+    "question": "I can't submit my module rating.",
+    "answer": "Module ratings become available only after completing the module. Refresh the page if needed.",
+    "keywords": ["rating", "feedback"]
+  },
+  {
+    "id": "lms_trouble_024",
+    "question": "The module rating option is missing.",
+    "answer": "The rating option appears only after module completion.",
+    "keywords": ["rating", "module"]
+  },
+  {
+    "id": "lms_trouble_025",
+    "question": "I forgot my LMS login credentials.",
+    "answer": "Use the platform's password recovery option or contact platform support for assistance.",
+    "keywords": ["password", "login", "credentials"]
+  },
+  {
+    "id": "lms_trouble_026",
+    "question": "My training deadline has passed.",
+    "answer": "Once the completion timeline expires, programme rules apply. Contact your programme administrator to discuss available options.",
+    "keywords": ["deadline", "timeline"]
+  },
+  {
+    "id": "lms_trouble_027",
+    "question": "I was dropped from the programme because I missed the deadline.",
+    "answer": "Contact your programme administrator to understand whether any exceptions or next steps are available.",
+    "keywords": ["dropped", "programme"]
+  },
+  {
+    "id": "lms_trouble_028",
+    "question": "The chatbot couldn't answer my LMS question.",
+    "answer": "Try rephrasing your question with more details. If the issue is account-specific, contact platform support.",
+    "keywords": ["chatbot", "support"]
+  },
+  {
+    "id": "lms_trouble_029",
+    "question": "The LMS page is loading very slowly.",
+    "answer": "Check your internet connection, refresh the page, or try using another browser or device.",
+    "keywords": ["slow", "loading", "performance"]
+  },
+  {
+    "id": "lms_trouble_030",
+    "question": "I'm seeing an unexpected error while using the LMS.",
+    "answer": "Refresh the page, sign in again, and try once more. If the error continues, contact support with a screenshot and a description of the issue.",
+    "keywords": ["error", "issue", "support"]
+  },
+  {
+    "id": "lms_trouble_031",
+    "question": "My completed modules are showing as incomplete.",
+    "answer": "Refresh the course page and wait a few moments for your progress to sync. If the issue remains, contact support.",
+    "keywords": ["progress", "modules", "sync"]
+  },
+  {
+    "id": "lms_trouble_032",
+    "question": "The MCQ quiz is not submitting.",
+    "answer": "Ensure all required questions are answered before submitting. Refresh the page if necessary.",
+    "keywords": ["mcq", "quiz", "submit"]
+  },
+  {
+    "id": "lms_trouble_033",
+    "question": "I can't switch between General Training and Programme Training.",
+    "answer": "Your available training options depend on your programme eligibility. Contact support if you believe an option is missing.",
+    "keywords": ["general training", "programme training"]
+  },
+  {
+    "id": "lms_trouble_034",
+    "question": "The course is displayed in the wrong language.",
+    "answer": "Check your language settings. If the issue persists, report it to support.",
+    "keywords": ["language", "translation"]
+  },
+  {
+    "id": "lms_trouble_035",
+    "question": "I lost my internet connection during training.",
+    "answer": "Reconnect to the internet and reopen your course. Your saved progress should be available.",
+    "keywords": ["internet", "connection", "resume"]
+  },
+  {
+    "id": "lms_trouble_036",
+    "question": "The page freezes while studying.",
+    "answer": "Refresh your browser, clear the cache if necessary, or try another supported browser.",
+    "keywords": ["freeze", "browser"]
+  },
+  {
+    "id": "lms_trouble_037",
+    "question": "I can't find my assigned learning materials.",
+    "answer": "Open the correct course and module. If the materials are still missing, contact support.",
+    "keywords": ["materials", "content"]
+  },
+  {
+    "id": "lms_trouble_038",
+    "question": "I accidentally marked my course as completed.",
+    "answer": "Contact your programme administrator or platform support if you need assistance regarding your completion status.",
+    "keywords": ["completed", "status"]
+  },
+  {
+    "id": "lms_trouble_039",
+    "question": "I believe my LMS data is incorrect.",
+    "answer": "Report the issue to platform support with details such as your programme, course, and screenshots if available.",
+    "keywords": ["incorrect", "data", "support"]
+  },
+  {
+    "id": "lms_trouble_040",
+    "question": "Who should I contact if none of these solutions work?",
+    "answer": "Please contact the TEF platform support team or your programme administrator for further assistance.",
+    "keywords": ["support", "help", "administrator"]
+  }
+]

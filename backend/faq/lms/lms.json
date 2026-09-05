@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lms_001",
+    "question": "When can I access the LMS module?",
+    "answer": "You can access the LMS module after your onboarding has been completed and your profile has been verified.",
+    "keywords": ["lms", "access", "onboarding", "verification", "training"]
+  },
+  {
+    "id": "lms_002",
+    "question": "How do I start my training?",
+    "answer": "Log in to the platform, open the Training section, and click 'Start Training' to begin your learning journey.",
+    "keywords": ["start training", "login", "training", "lms", "learning"]
+  },
+  {
+    "id": "lms_003",
+    "question": "Why do I need to accept the participation agreement?",
+    "answer": "Accepting the participation agreement is mandatory before you can begin your assigned training.",
+    "keywords": ["agreement", "participation", "accept", "mandatory", "training"]
+  },
+  {
+    "id": "lms_004",
+    "question": "Will I see the participation agreement every time I log in?",
+    "answer": "No. The participation agreement is displayed only on your first login and will not appear again after you accept it.",
+    "keywords": ["agreement", "first login", "acceptance", "login"]
+  },
+  {
+    "id": "lms_005",
+    "question": "What training options can I choose from?",
+    "answer": "Depending on your eligibility, you can choose either General Training or Programme Training.",
+    "keywords": ["general training", "programme training", "course selection"]
+  },
+  {
+    "id": "lms_006",
+    "question": "How do I select a course?",
+    "answer": "After selecting your training type, browse the available courses and open the one assigned or available to you.",
+    "keywords": ["course", "select course", "training", "lms"]
+  },
+  {
+    "id": "lms_007",
+    "question": "What information can I view before starting a course?",
+    "answer": "You can view the course description, requirements, expected outcomes, and curriculum before starting.",
+    "keywords": ["course details", "requirements", "outcomes", "curriculum"]
+  },
+  {
+    "id": "lms_008",
+    "question": "Can I check my learning progress?",
+    "answer": "Yes. You can view your course progress, including completed modules, content count, and the last updated date.",
+    "keywords": ["progress", "course progress", "modules", "tracking"]
+  },
+  {
+    "id": "lms_009",
+    "question": "What happens when I click 'Start Learning'?",
+    "answer": "Your learning begins with a pre-test, followed by the course modules and a post-test at the end.",
+    "keywords": ["start learning", "pre-test", "post-test", "learning"]
+  },
+  {
+    "id": "lms_010",
+    "question": "Is the pre-test mandatory?",
+    "answer": "Yes. The pre-test is part of the learning process and appears before you start the course content.",
+    "keywords": ["pre-test", "assessment", "mandatory", "course"]
+  },
+  {
+    "id": "lms_011",
+    "question": "What types of learning materials are included in a course?",
+    "answer": "Courses may include videos, presentations (PPTs), case studies, and multiple-choice questions (MCQs).",
+    "keywords": ["videos", "ppt", "case studies", "mcq", "content"]
+  },
+  {
+    "id": "lms_012",
+    "question": "Can I choose between reading and watching the learning content?",
+    "answer": "Yes. Depending on the module, you can either read the learning material or watch the available videos.",
+    "keywords": ["read", "watch", "video", "learning content"]
+  },
+  {
+    "id": "lms_013",
+    "question": "Can I take breaks and continue my course later?",
+    "answer": "Yes. Your progress is tracked, allowing you to continue your learning from where you left off.",
+    "keywords": ["resume", "progress", "continue learning", "course"]
+  },
+  {
+    "id": "lms_014",
+    "question": "Can I set reminders for my training?",
+    "answer": "Yes. You can set reminders to help you stay on track with your course schedule.",
+    "keywords": ["reminder", "notification", "training", "schedule"]
+  },
+  {
+    "id": "lms_015",
+    "question": "Can I interact with other entrepreneurs during training?",
+    "answer": "Yes. You can participate in discussion forums related to your course.",
+    "keywords": ["discussion", "forum", "community", "entrepreneurs"]
+  },
+  {
+    "id": "lms_016",
+    "question": "When can I rate a learning module?",
+    "answer": "The rating option becomes available after you complete a module.",
+    "keywords": ["rating", "feedback", "module", "review"]
+  },
+  {
+    "id": "lms_017",
+    "question": "What happens after I complete all course modules?",
+    "answer": "You will be required to complete the post-test before marking the course as completed.",
+    "keywords": ["post-test", "course completion", "modules"]
+  },
+  {
+    "id": "lms_018",
+    "question": "Is the post-test mandatory?",
+    "answer": "Yes. The post-test is mandatory and cannot be skipped.",
+    "keywords": ["post-test", "mandatory", "assessment"]
+  },
+  {
+    "id": "lms_019",
+    "question": "How do I officially complete my course?",
+    "answer": "After passing through the required learning steps, click 'Mark as Completed' to complete your course.",
+    "keywords": ["mark as completed", "course completion", "finish course"]
+  },
+  {
+    "id": "lms_020",
+    "question": "What happens if I forget to mark my course as completed?",
+    "answer": "Your course may not be recorded as completed until you click 'Mark as Completed'.",
+    "keywords": ["mark completed", "completion status", "course"]
+  },
+  {
+    "id": "lms_021",
+    "question": "Is there a deadline for completing my training?",
+    "answer": "Yes. Each course has a completion timeline defined by the programme administrators.",
+    "keywords": ["deadline", "timeline", "training", "course"]
+  },
+  {
+    "id": "lms_022",
+    "question": "What happens if I miss the training deadline?",
+    "answer": "If you do not complete the LMS within the required timeline, you may be dropped from the programme.",
+    "keywords": ["deadline", "drop", "programme", "timeline"]
+  },
+  {
+    "id": "lms_023",
+    "question": "Can I receive reminders about my course?",
+    "answer": "Yes. Reminder notifications may be sent to help you complete your training on time.",
+    "keywords": ["reminders", "notifications", "training"]
+  },
+  {
+    "id": "lms_024",
+    "question": "Can I see how much of my course I have completed?",
+    "answer": "Yes. Your progress dashboard shows completed modules and overall learning progress.",
+    "keywords": ["progress", "dashboard", "completion"]
+  },
+  {
+    "id": "lms_025",
+    "question": "Can I take more than one course?",
+    "answer": "Yes. Depending on your assigned programme, you may have access to multiple courses.",
+    "keywords": ["multiple courses", "programme", "training"]
+  },
+  {
+    "id": "lms_026",
+    "question": "Will my assigned programme affect the courses I see?",
+    "answer": "Yes. Courses are linked to programmes, so your available courses depend on your assigned programme.",
+    "keywords": ["programme", "assigned course", "eligibility"]
+  },
+  {
+    "id": "lms_027",
+    "question": "Can I access learning content in different languages?",
+    "answer": "Yes. The platform supports multilingual learning content where available.",
+    "keywords": ["language", "multilingual", "content"]
+  },
+  {
+    "id": "lms_028",
+    "question": "Can I revisit completed course content?",
+    "answer": "If access is still available, you can reopen your completed course materials for reference.",
+    "keywords": ["revisit", "completed course", "reference"]
+  },
+  {
+    "id": "lms_029",
+    "question": "Do I need to complete every module?",
+    "answer": "Yes. Complete all required modules and assessments before marking the course as completed.",
+    "keywords": ["modules", "complete", "assessment"]
+  },
+  {
+    "id": "lms_030",
+    "question": "What should I do if I cannot access my course?",
+    "answer": "Ensure your onboarding and verification are complete and that you are enrolled in the appropriate programme.",
+    "keywords": ["course access", "verification", "enrollment"]
+  },
+  {
+    "id": "lms_031",
+    "question": "Can I monitor the number of modules in my course?",
+    "answer": "Yes. The course progress section displays the total number of modules and learning content.",
+    "keywords": ["modules", "course progress", "content count"]
+  },
+  {
+    "id": "lms_032",
+    "question": "Will I know when the course content was last updated?",
+    "answer": "Yes. Each course displays the last updated date for your reference.",
+    "keywords": ["last updated", "course", "content"]
+  },
+  {
+    "id": "lms_033",
+    "question": "Can I ask questions during my training?",
+    "answer": "Yes. Use the discussion forum to ask questions and interact with other entrepreneurs.",
+    "keywords": ["questions", "discussion", "forum"]
+  },
+  {
+    "id": "lms_034",
+    "question": "Can I skip directly to the final assessment?",
+    "answer": "No. You should complete the required learning modules before taking the post-test.",
+    "keywords": ["skip", "assessment", "learning"]
+  },
+  {
+    "id": "lms_035",
+    "question": "What is the purpose of the post-test?",
+    "answer": "The post-test helps evaluate your understanding after completing the learning modules.",
+    "keywords": ["post-test", "evaluation", "assessment"]
+  },
+  {
+    "id": "lms_036",
+    "question": "Will the LMS save my learning progress automatically?",
+    "answer": "Your course progress is tracked so you can monitor your learning journey.",
+    "keywords": ["save progress", "tracking", "learning"]
+  },
+  {
+    "id": "lms_037",
+    "question": "Can I complete my training using only videos?",
+    "answer": "Courses may contain different learning formats such as videos, PPTs, case studies, and quizzes, so you should complete all required content.",
+    "keywords": ["videos", "ppt", "case study", "course"]
+  },
+  {
+    "id": "lms_038",
+    "question": "What happens after I finish all my assigned training?",
+    "answer": "Once you complete all required courses and assessments, your LMS training is recorded as completed.",
+    "keywords": ["training completed", "completion", "lms"]
+  },
+  {
+    "id": "lms_039",
+    "question": "Can the chatbot help me with LMS-related questions?",
+    "answer": "Yes. The chatbot can answer questions about LMS features, learning workflows, assessments, reminders, and course completion.",
+    "keywords": ["chatbot", "help", "lms", "support"]
+  },
+  {
+    "id": "lms_040",
+    "question": "How can I successfully complete my LMS training?",
+    "answer": "Accept the participation agreement, complete all learning modules, finish the pre-test and post-test, and mark the course as completed before the deadline.",
+    "keywords": ["complete training", "agreement", "assessment", "deadline"]
+  }
+]

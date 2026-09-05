@@ -1,0 +1,242 @@
+[
+  {
+    "id": "finance_trouble_001",
+    "question": "Why is my funding status not showing?",
+    "answer": "Your profile may not have reached the Finance module yet, or your funding record has not been processed. If the issue continues, contact TEF support.",
+    "keywords": ["status missing", "funding status", "finance", "profile"]
+  },
+  {
+    "id": "finance_trouble_002",
+    "question": "Why is my status still showing as Endorsed?",
+    "answer": "Your payment has not yet been marked by the Finance team. Your status will change once the funding process progresses.",
+    "keywords": ["endorsed", "status", "payment", "delay"]
+  },
+  {
+    "id": "finance_trouble_003",
+    "question": "Why is my status stuck on Pending?",
+    "answer": "Pending indicates that your funding has not yet been recorded as paid. Please wait for processing or contact TEF support if the delay is unusually long.",
+    "keywords": ["pending", "status", "delay", "payment"]
+  },
+  {
+    "id": "finance_trouble_004",
+    "question": "I received funding but my status hasn't changed. What should I do?",
+    "answer": "If your payment has been completed but your status still hasn't updated, contact TEF support so your funding record can be verified.",
+    "keywords": ["status update", "paid", "verification"]
+  },
+  {
+    "id": "finance_trouble_005",
+    "question": "Why can't I see my funding details?",
+    "answer": "Funding details may not yet be available for your account or access may be restricted. Contact TEF support if you believe information is missing.",
+    "keywords": ["funding details", "missing", "visibility"]
+  },
+  {
+    "id": "finance_trouble_006",
+    "question": "I didn't receive a funding notification.",
+    "answer": "Notifications are sent after funding is officially recorded. Check your email and spam folder before contacting TEF support.",
+    "keywords": ["notification", "email", "spam"]
+  },
+  {
+    "id": "finance_trouble_007",
+    "question": "Why can't I see my assigned funding partner?",
+    "answer": "Partner information may not yet be available for your profile or may not be visible in your account.",
+    "keywords": ["partner", "visibility", "funding"]
+  },
+  {
+    "id": "finance_trouble_008",
+    "question": "My programme information is missing.",
+    "answer": "Programme details may still be processing. Refresh the page or contact TEF support if the information remains unavailable.",
+    "keywords": ["programme", "missing", "refresh"]
+  },
+  {
+    "id": "finance_trouble_009",
+    "question": "I can't download my funding information.",
+    "answer": "Download functionality may not be available for entrepreneurs or may be temporarily unavailable.",
+    "keywords": ["download", "export", "funding"]
+  },
+  {
+    "id": "finance_trouble_010",
+    "question": "Why is the Finance page taking too long to load?",
+    "answer": "This could be caused by network issues or temporary server delays. Refresh the page and try again later.",
+    "keywords": ["slow", "loading", "finance page"]
+  },
+  {
+    "id": "finance_trouble_011",
+    "question": "I can't access the Finance module.",
+    "answer": "Ensure you are logged into the correct account and that your profile has access to the Finance section.",
+    "keywords": ["access denied", "finance module", "login"]
+  },
+  {
+    "id": "finance_trouble_012",
+    "question": "The Finance page is blank.",
+    "answer": "Refresh your browser, clear your cache, or try using another browser. If the issue persists, contact support.",
+    "keywords": ["blank page", "browser", "cache"]
+  },
+  {
+    "id": "finance_trouble_013",
+    "question": "My funding amount looks incorrect.",
+    "answer": "If you believe the displayed funding amount is incorrect, contact TEF support for verification.",
+    "keywords": ["incorrect amount", "funding", "verification"]
+  },
+  {
+    "id": "finance_trouble_014",
+    "question": "Why can't I edit my funding information?",
+    "answer": "Funding records are managed by the Finance team and cannot be modified by entrepreneurs.",
+    "keywords": ["edit", "funding", "permission"]
+  },
+  {
+    "id": "finance_trouble_015",
+    "question": "I can't find my payment status.",
+    "answer": "Your payment information may still be processing or unavailable. Try again later or contact support.",
+    "keywords": ["payment status", "missing", "processing"]
+  },
+  {
+    "id": "finance_trouble_016",
+    "question": "Why haven't I been moved to Alumni after payment?",
+    "answer": "The Alumni transition happens automatically after your payment is recorded. Contact support if the status hasn't updated after some time.",
+    "keywords": ["alumni", "status", "paid"]
+  },
+  {
+    "id": "finance_trouble_017",
+    "question": "I received an error while opening the Finance module.",
+    "answer": "Try refreshing the page or signing in again. If the problem continues, report the error to TEF support.",
+    "keywords": ["error", "finance", "login"]
+  },
+  {
+    "id": "finance_trouble_018",
+    "question": "Why do I see outdated funding information?",
+    "answer": "Recent updates may take some time to appear. Refresh the page and check again later.",
+    "keywords": ["outdated", "refresh", "update"]
+  },
+  {
+    "id": "finance_trouble_019",
+    "question": "The chatbot cannot answer my funding question.",
+    "answer": "Try asking a more specific question using terms like funding status, payment, programme, or partner. If the issue continues, contact support.",
+    "keywords": ["chatbot", "question", "funding"]
+  },
+  {
+    "id": "finance_trouble_020",
+    "question": "The chatbot gave an incorrect answer about my funding.",
+    "answer": "The chatbot provides guidance based on available information. Contact TEF support to verify account-specific funding details.",
+    "keywords": ["chatbot", "incorrect answer", "support"]
+  },
+  {
+    "id": "finance_trouble_021",
+    "question": "I can't find the Finance section in my dashboard.",
+    "answer": "Your account may not have access yet or the feature may not be available for your role.",
+    "keywords": ["dashboard", "finance section", "access"]
+  },
+  {
+    "id": "finance_trouble_022",
+    "question": "The page keeps refreshing automatically.",
+    "answer": "Clear your browser cache or try another browser. If the issue continues, contact TEF support.",
+    "keywords": ["refresh", "browser", "cache"]
+  },
+  {
+    "id": "finance_trouble_023",
+    "question": "I see an 'Unauthorized' message.",
+    "answer": "Your account may not have permission to access this feature. Sign in again or contact TEF support.",
+    "keywords": ["unauthorized", "permission", "login"]
+  },
+  {
+    "id": "finance_trouble_024",
+    "question": "Why can't I see my latest funding update?",
+    "answer": "Funding updates are reflected after they are processed by the Finance team. Check again later.",
+    "keywords": ["latest update", "funding", "processing"]
+  },
+  {
+    "id": "finance_trouble_025",
+    "question": "My account information doesn't match my funding record.",
+    "answer": "If your profile details appear incorrect, contact TEF support so they can verify your records.",
+    "keywords": ["profile", "record", "verification"]
+  },
+  {
+    "id": "finance_trouble_026",
+    "question": "The Finance module logs me out unexpectedly.",
+    "answer": "Your session may have expired. Sign in again and continue your activity.",
+    "keywords": ["session expired", "logout", "login"]
+  },
+  {
+    "id": "finance_trouble_027",
+    "question": "I can't search for my funding record.",
+    "answer": "Verify that you're using the correct account. If your record is still unavailable, contact TEF support.",
+    "keywords": ["search", "funding record", "account"]
+  },
+  {
+    "id": "finance_trouble_028",
+    "question": "Why am I seeing duplicate funding information?",
+    "answer": "Refresh the page. If duplicate records continue to appear, report the issue to TEF support.",
+    "keywords": ["duplicate", "funding", "records"]
+  },
+  {
+    "id": "finance_trouble_029",
+    "question": "I can't view my partner information after funding.",
+    "answer": "Partner information may be restricted or unavailable for your account.",
+    "keywords": ["partner", "visibility", "funding"]
+  },
+  {
+    "id": "finance_trouble_030",
+    "question": "The Finance dashboard is displaying incorrect information.",
+    "answer": "Refresh the page first. If the incorrect information persists, contact TEF support for assistance.",
+    "keywords": ["dashboard", "incorrect", "refresh"]
+  },
+  {
+    "id": "finance_trouble_031",
+    "question": "My payment appears twice.",
+    "answer": "If duplicate payment records appear, report the issue to TEF support for verification.",
+    "keywords": ["duplicate payment", "payment", "records"]
+  },
+  {
+    "id": "finance_trouble_032",
+    "question": "Why can't I access my funding after logging in?",
+    "answer": "Ensure you're using the correct account associated with your TEF application.",
+    "keywords": ["login", "funding", "account"]
+  },
+  {
+    "id": "finance_trouble_033",
+    "question": "The Finance module says 'No data available.'",
+    "answer": "Your funding information may not have been processed yet or no records are currently available.",
+    "keywords": ["no data", "funding", "records"]
+  },
+  {
+    "id": "finance_trouble_034",
+    "question": "I accidentally closed the Finance page during an update.",
+    "answer": "Log back in and reopen the Finance module. Your data is stored by the system.",
+    "keywords": ["closed page", "login", "data"]
+  },
+  {
+    "id": "finance_trouble_035",
+    "question": "I can't find my entrepreneur profile in Finance.",
+    "answer": "Your profile may still be awaiting processing. Contact TEF support if the issue persists.",
+    "keywords": ["profile missing", "entrepreneur", "finance"]
+  },
+  {
+    "id": "finance_trouble_036",
+    "question": "The chatbot says my funding information is unavailable.",
+    "answer": "The chatbot can only access available records. Contact TEF support if you need account-specific assistance.",
+    "keywords": ["chatbot", "unavailable", "funding"]
+  },
+  {
+    "id": "finance_trouble_037",
+    "question": "I cannot open funding details on my mobile device.",
+    "answer": "Try using the latest version of your browser or access the platform from another device.",
+    "keywords": ["mobile", "browser", "funding"]
+  },
+  {
+    "id": "finance_trouble_038",
+    "question": "The Finance module is showing an unexpected error.",
+    "answer": "Refresh the page and try again. If the issue continues, contact TEF support with the error details.",
+    "keywords": ["unexpected error", "finance", "support"]
+  },
+  {
+    "id": "finance_trouble_039",
+    "question": "My funding information disappeared after refreshing the page.",
+    "answer": "Log out and sign back in. If the information is still missing, contact TEF support.",
+    "keywords": ["missing data", "refresh", "login"]
+  },
+  {
+    "id": "finance_trouble_040",
+    "question": "Who should I contact if my Finance issue isn't resolved?",
+    "answer": "If troubleshooting steps do not resolve your issue, please contact TEF support for further assistance.",
+    "keywords": ["support", "help", "finance issue", "contact"]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "me_trouble_001",
+    "question": "I haven't received my survey notification. What should I do?",
+    "answer": "Check your email inbox, spam/junk folder, and SMS messages. If you still haven't received the survey notification, contact the programme support team or your administrator.",
+    "keywords": ["survey notification", "email", "sms", "not received", "missing notification"]
+  },
+  {
+    "id": "me_trouble_002",
+    "question": "I cannot open the survey link.",
+    "answer": "Ensure you are using the latest survey link provided in your email or notification. If the problem persists, request a new survey link from the programme administrator.",
+    "keywords": ["survey link", "link not working", "cannot open", "invalid link"]
+  },
+  {
+    "id": "me_trouble_003",
+    "question": "The survey page is not loading.",
+    "answer": "Check your internet connection, refresh the page, or try using another browser. If the issue continues, contact support.",
+    "keywords": ["page not loading", "survey loading", "browser issue", "internet"]
+  },
+  {
+    "id": "me_trouble_004",
+    "question": "I forgot to complete my survey before the deadline.",
+    "answer": "Contact the programme administrator to check whether the survey can be reopened or rescheduled.",
+    "keywords": ["deadline", "survey expired", "late submission"]
+  },
+  {
+    "id": "me_trouble_005",
+    "question": "I accidentally submitted incorrect information.",
+    "answer": "Submitted surveys cannot be edited. Contact the programme administrator to determine whether resubmission is possible.",
+    "keywords": ["wrong information", "edit survey", "incorrect submission"]
+  },
+  {
+    "id": "me_trouble_006",
+    "question": "I cannot upload my documents.",
+    "answer": "Ensure the file size and format meet the survey requirements. Try uploading again using a stable internet connection.",
+    "keywords": ["document upload", "upload failed", "attachments"]
+  },
+  {
+    "id": "me_trouble_007",
+    "question": "My uploaded file is rejected.",
+    "answer": "The file may be in an unsupported format or exceed the allowed size. Upload a supported file and try again.",
+    "keywords": ["invalid file", "unsupported format", "upload error"]
+  },
+  {
+    "id": "me_trouble_008",
+    "question": "The Submit button is disabled.",
+    "answer": "Ensure all mandatory questions are answered, required documents are uploaded, and consent has been provided.",
+    "keywords": ["submit button", "mandatory fields", "consent"]
+  },
+  {
+    "id": "me_trouble_009",
+    "question": "I cannot submit my survey.",
+    "answer": "Verify that all required fields are completed, all mandatory uploads are attached, and your internet connection is stable.",
+    "keywords": ["survey submission", "submit failed", "cannot submit"]
+  },
+  {
+    "id": "me_trouble_010",
+    "question": "The system says consent is required.",
+    "answer": "Please review the consent statement and accept it before submitting your survey.",
+    "keywords": ["consent", "privacy", "submission blocked"]
+  },
+  {
+    "id": "me_trouble_011",
+    "question": "My survey disappeared after I started filling it.",
+    "answer": "Refresh the page and log in again. If the survey is still unavailable, contact the programme administrator.",
+    "keywords": ["survey missing", "survey disappeared", "login"]
+  },
+  {
+    "id": "me_trouble_012",
+    "question": "I received a survey that I already completed.",
+    "answer": "Some surveys may be repeated as part of programme monitoring. Check the survey title and assigned date before completing it.",
+    "keywords": ["duplicate survey", "repeat survey", "multiple surveys"]
+  },
+  {
+    "id": "me_trouble_013",
+    "question": "I cannot access my account.",
+    "answer": "Verify your login credentials. If you still cannot access your account, contact programme support for assistance.",
+    "keywords": ["login", "account access", "password"]
+  },
+  {
+    "id": "me_trouble_014",
+    "question": "I forgot my password.",
+    "answer": "Use the 'Forgot Password' option if available or contact the programme administrator to reset your password.",
+    "keywords": ["forgot password", "reset password", "login"]
+  },
+  {
+    "id": "me_trouble_015",
+    "question": "I changed my email address. How do I update it?",
+    "answer": "Contact the programme administrator to update your registered email address.",
+    "keywords": ["change email", "update profile", "contact details"]
+  },
+  {
+    "id": "me_trouble_016",
+    "question": "I changed my phone number.",
+    "answer": "Please contact the programme administrator to update your registered phone number.",
+    "keywords": ["phone number", "mobile", "profile update"]
+  },
+  {
+    "id": "me_trouble_017",
+    "question": "I cannot attend the scheduled verification visit.",
+    "answer": "Inform your assigned enumerator as soon as possible so the visit can be rescheduled.",
+    "keywords": ["verification", "reschedule visit", "enumerator"]
+  },
+  {
+    "id": "me_trouble_018",
+    "question": "The enumerator has not contacted me.",
+    "answer": "If your verification is approaching and you have not been contacted, notify the programme administrator.",
+    "keywords": ["enumerator", "verification", "contact"]
+  },
+  {
+    "id": "me_trouble_019",
+    "question": "My survey was rejected. What should I do?",
+    "answer": "Review the rejection remarks carefully, make the necessary corrections, and resubmit the survey if instructed.",
+    "keywords": ["survey rejected", "remarks", "resubmit"]
+  },
+  {
+    "id": "me_trouble_020",
+    "question": "I don't understand a survey question.",
+    "answer": "Read the question guidance if available. If clarification is still needed, contact the programme support team.",
+    "keywords": ["survey question", "help", "clarification"]
+  },
+  {
+    "id": "me_trouble_021",
+    "question": "The uploaded photo is blurry.",
+    "answer": "Take a clear, well-lit photo and upload it again before submitting the survey.",
+    "keywords": ["photo upload", "blurry image", "document quality"]
+  },
+  {
+    "id": "me_trouble_022",
+    "question": "I cannot upload my receipt for the Fund Use Assessment.",
+    "answer": "Ensure the receipt is in a supported format and within the allowed file size, then upload it again.",
+    "keywords": ["receipt", "fund use", "upload"]
+  },
+  {
+    "id": "me_trouble_023",
+    "question": "My Success Story was rejected.",
+    "answer": "Review the feedback provided, update the content if necessary, and submit it again.",
+    "keywords": ["success story", "rejected", "feedback"]
+  },
+  {
+    "id": "me_trouble_024",
+    "question": "I accidentally uploaded the wrong document.",
+    "answer": "If the survey has not been submitted, replace the file. If already submitted, contact the administrator.",
+    "keywords": ["wrong document", "replace upload", "attachment"]
+  },
+  {
+    "id": "me_trouble_025",
+    "question": "The chatbot cannot answer my question.",
+    "answer": "Try rephrasing your question with more details. If you still need assistance, contact the programme support team.",
+    "keywords": ["chatbot", "support", "unknown question", "help"]
+  },
+  {
+    "id": "me_trouble_026",
+    "question": "I think my survey was submitted twice.",
+    "answer": "Check your survey history if available. If duplicate submissions exist, contact the programme administrator.",
+    "keywords": ["duplicate submission", "submitted twice"]
+  },
+  {
+    "id": "me_trouble_027",
+    "question": "The website keeps logging me out.",
+    "answer": "Clear your browser cache, log in again, and avoid long periods of inactivity while completing your survey.",
+    "keywords": ["logout", "session expired", "login"]
+  },
+  {
+    "id": "me_trouble_028",
+    "question": "The website is very slow.",
+    "answer": "Check your internet connection, close unnecessary browser tabs, and try again after a few minutes.",
+    "keywords": ["slow website", "performance", "loading"]
+  },
+  {
+    "id": "me_trouble_029",
+    "question": "I am seeing an unexpected error message.",
+    "answer": "Refresh the page and try again. If the error persists, note the message and contact programme support.",
+    "keywords": ["error", "unexpected error", "technical issue"]
+  },
+  {
+    "id": "me_trouble_030",
+    "question": "Who should I contact if I still need help?",
+    "answer": "If your issue cannot be resolved through the chatbot or troubleshooting steps, please contact the programme support team or your M&E administrator.",
+    "keywords": ["support", "administrator", "contact", "help"]
+  }
+]

@@ -1,0 +1,364 @@
+[
+
+  {
+
+    "id": "pitching_ts_001",
+
+    "question": "I can't access the Pitching Module.",
+
+    "answer": "Ensure you have successfully completed the LMS Module. The Pitching Module becomes available only after LMS completion.",
+
+    "keywords": ["access", "pitching module", "LMS", "not available"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_002",
+
+    "question": "The Pitching Module is locked for me.",
+
+    "answer": "The module may be locked because you have not completed a required prerequisite or the programme timeline has not started or has already ended.",
+
+    "keywords": ["locked", "module", "timeline", "access"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_003",
+
+    "question": "I didn't receive the OTP.",
+
+    "answer": "Verify that your registered mobile number is correct, check your network connection, wait a few minutes, and request a new OTP if available.",
+
+    "keywords": ["OTP", "not received", "mobile", "verification"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_004",
+
+    "question": "My OTP has expired.",
+
+    "answer": "Request a new OTP and complete the verification before it expires.",
+
+    "keywords": ["OTP expired", "verification"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_005",
+
+    "question": "OTP verification keeps failing.",
+
+    "answer": "Make sure you enter the latest OTP exactly as received. If the problem continues, request a new OTP or contact support.",
+
+    "keywords": ["OTP invalid", "verification failed"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_006",
+
+    "question": "My identity card upload is rejected.",
+
+    "answer": "Check that the document is valid, clearly visible, and has not expired. Upload a supported file format.",
+
+    "keywords": ["identity card", "upload failed", "ID"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_007",
+
+    "question": "The system says my identity card has expired.",
+
+    "answer": "Upload a new valid identity card. The system will retain both the previous and updated versions for audit purposes.",
+
+    "keywords": ["expired ID", "identity card"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_008",
+
+    "question": "I cannot proceed after Identity Verification.",
+
+    "answer": "Ensure you have accepted the Pitching Agreement and successfully completed OTP verification.",
+
+    "keywords": ["identity verification", "agreement", "OTP"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_009",
+
+    "question": "I can't upload my Business Plan.",
+
+    "answer": "Verify that your file meets the required format and size limits and that your internet connection is stable.",
+
+    "keywords": ["business plan", "upload", "file"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_010",
+
+    "question": "My Pitch Video upload failed.",
+
+    "answer": "Ensure your video meets the configured duration and file size limits before uploading again.",
+
+    "keywords": ["pitch video", "upload failed", "video"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_011",
+
+    "question": "The Business Executive Summary is not being accepted.",
+
+    "answer": "Ensure your summary contains between 1,000 and 3,000 words.",
+
+    "keywords": ["executive summary", "word limit"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_012",
+
+    "question": "I accidentally uploaded the wrong document.",
+
+    "answer": "If the phase has not yet been submitted, replace the document with the correct one before submission.",
+
+    "keywords": ["wrong document", "replace", "edit"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_013",
+
+    "question": "I cannot edit my uploaded documents.",
+
+    "answer": "Documents can only be edited before the current phase is submitted.",
+
+    "keywords": ["edit", "documents"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_014",
+
+    "question": "Window B is not available.",
+
+    "answer": "You must complete and submit Window A before you can access Window B.",
+
+    "keywords": ["window B", "locked", "window A"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_015",
+
+    "question": "I can't submit Window A.",
+
+    "answer": "Ensure all mandatory documents and required information have been uploaded successfully.",
+
+    "keywords": ["submit", "window A", "mandatory"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_016",
+
+    "question": "Some required documents are missing.",
+
+    "answer": "Upload all mandatory documents before attempting to submit the phase.",
+
+    "keywords": ["missing documents", "mandatory"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_017",
+
+    "question": "My application status is still 'Under Review'.",
+
+    "answer": "Your documents are currently being reviewed by the assigned reviewers. Please wait until the review process is completed.",
+
+    "keywords": ["under review", "status"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_018",
+
+    "question": "I received a resubmission request.",
+
+    "answer": "Review the remarks carefully, correct only the requested documents, and upload them before the specified deadline.",
+
+    "keywords": ["resubmission", "remarks"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_019",
+
+    "question": "I don't understand the review remarks.",
+
+    "answer": "Read the reviewer comments carefully. If clarification is still needed, contact programme support.",
+
+    "keywords": ["remarks", "feedback"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_020",
+
+    "question": "I missed my resubmission deadline.",
+
+    "answer": "Applications that miss the configured deadline are processed according to programme rules and may become ineligible.",
+
+    "keywords": ["deadline", "missed", "resubmission"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_021",
+
+    "question": "I can't upload corrected documents.",
+
+    "answer": "Ensure the resubmission window is still open and upload only the requested corrected documents.",
+
+    "keywords": ["corrected documents", "upload"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_022",
+
+    "question": "I can't see the resubmission option.",
+
+    "answer": "The resubmission option appears only when a reviewer has requested corrections.",
+
+    "keywords": ["resubmission option"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_023",
+
+    "question": "The upload keeps failing.",
+
+    "answer": "Check your internet connection, verify the file size and format, and try uploading again.",
+
+    "keywords": ["upload failed", "network"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_024",
+
+    "question": "The page is loading very slowly.",
+
+    "answer": "Refresh the page, check your internet connection, and try again after a few minutes.",
+
+    "keywords": ["slow", "loading"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_025",
+
+    "question": "I accidentally submitted my application.",
+
+    "answer": "Once a phase is submitted, editing is generally not allowed. Contact programme support if immediate assistance is required.",
+
+    "keywords": ["submitted", "edit"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_026",
+
+    "question": "I cannot find my uploaded documents.",
+
+    "answer": "Refresh the page and verify you are viewing the correct programme and submission phase.",
+
+    "keywords": ["documents missing", "uploads"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_027",
+
+    "question": "My application was disqualified.",
+
+    "answer": "Applications may be disqualified if mandatory requirements or configured submission timelines are not met.",
+
+    "keywords": ["disqualified", "timeline"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_028",
+
+    "question": "I received an unsupported file format error.",
+
+    "answer": "Upload your document in one of the supported file formats specified by the platform.",
+
+    "keywords": ["file format", "unsupported"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_029",
+
+    "question": "My uploaded document looks blurry.",
+
+    "answer": "Upload a clear, readable scan or image to avoid review delays.",
+
+    "keywords": ["blurry", "document quality"]
+
+  },
+
+  {
+
+    "id": "pitching_ts_030",
+
+    "question": "Who should I contact if my issue isn't resolved?",
+
+    "answer": "If the issue persists after following the recommended steps, please contact the programme support team or the platform administrator.",
+
+    "keywords": ["support", "help", "contact"]
+
+  }
+
+]
+ 

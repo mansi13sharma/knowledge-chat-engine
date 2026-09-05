@@ -1,0 +1,484 @@
+[
+
+  {
+
+    "id": "me_001",
+
+    "question": "What is the Monitoring & Evaluation (M&E) module?",
+
+    "answer": "The M&E module helps track your progress throughout the programme by collecting survey responses, monitoring milestones, and evaluating your business journey.",
+
+    "keywords": ["m&e", "monitoring", "evaluation", "programme", "tracking"]
+
+  },
+
+  {
+
+    "id": "me_002",
+
+    "question": "Why do I need to complete surveys?",
+
+    "answer": "Surveys help the programme assess your progress, business performance, and overall impact throughout different stages of your entrepreneurial journey.",
+
+    "keywords": ["survey", "purpose", "progress", "assessment"]
+
+  },
+
+  {
+
+    "id": "me_003",
+
+    "question": "How will I know when a survey is assigned to me?",
+
+    "answer": "You will receive a notification and/or email informing you that a survey is available for completion.",
+
+    "keywords": ["notification", "email", "survey assignment", "alert"]
+
+  },
+
+  {
+
+    "id": "me_004",
+
+    "question": "What types of surveys might I receive?",
+
+    "answer": "You may receive Baseline, Midline, Endline, Business Performance, Fund Use, or Drop-off surveys depending on your programme stage.",
+
+    "keywords": ["baseline", "midline", "endline", "fund use", "drop-off"]
+
+  },
+
+  {
+
+    "id": "me_005",
+
+    "question": "Can I complete my survey after the deadline?",
+
+    "answer": "Surveys should be completed within the assigned timeline. Late submissions may not be accepted unless the survey is rescheduled.",
+
+    "keywords": ["deadline", "timeline", "late submission"]
+
+  },
+
+  {
+
+    "id": "me_006",
+
+    "question": "Can I edit my survey after submitting it?",
+
+    "answer": "No. Once a survey has been submitted, it cannot be edited unless it is rejected and reopened for resubmission.",
+
+    "keywords": ["edit", "submission", "resubmit"]
+
+  },
+
+  {
+
+    "id": "me_007",
+
+    "question": "What happens if my survey is rejected?",
+
+    "answer": "If your survey is rejected, you'll receive feedback and may be asked to resubmit it or complete verification through an enumerator.",
+
+    "keywords": ["rejected", "feedback", "resubmission"]
+
+  },
+
+  {
+
+    "id": "me_008",
+
+    "question": "Do I need to upload documents with my survey?",
+
+    "answer": "Yes, some survey questions may require supporting documents depending on the survey requirements.",
+
+    "keywords": ["documents", "upload", "attachments"]
+
+  },
+
+  {
+
+    "id": "me_009",
+
+    "question": "What file types can I upload?",
+
+    "answer": "The survey will specify the supported document or media formats required for each question.",
+
+    "keywords": ["file format", "upload", "documents"]
+
+  },
+
+  {
+
+    "id": "me_010",
+
+    "question": "Is giving consent mandatory before submitting a survey?",
+
+    "answer": "Yes. You must provide consent for data usage before your survey can be submitted.",
+
+    "keywords": ["consent", "privacy", "mandatory"]
+
+  },
+
+  {
+
+    "id": "me_011",
+
+    "question": "Can someone else complete the survey on my behalf?",
+
+    "answer": "Depending on the survey, it may be assigned either to you or to an enumerator for verification.",
+
+    "keywords": ["enumerator", "survey owner", "verification"]
+
+  },
+
+  {
+
+    "id": "me_012",
+
+    "question": "What is an enumerator?",
+
+    "answer": "An enumerator is a programme representative who may conduct verification visits and complete assigned verification surveys.",
+
+    "keywords": ["enumerator", "verification", "field visit"]
+
+  },
+
+  {
+
+    "id": "me_013",
+
+    "question": "How will an enumerator contact me?",
+
+    "answer": "The enumerator may coordinate with you through phone, SMS, WhatsApp, or email to schedule a verification visit.",
+
+    "keywords": ["contact", "visit", "verification"]
+
+  },
+
+  {
+
+    "id": "me_014",
+
+    "question": "Do I need to be present during verification?",
+
+    "answer": "Yes. Your participation helps the enumerator complete the verification accurately.",
+
+    "keywords": ["verification", "visit", "presence"]
+
+  },
+
+  {
+
+    "id": "me_015",
+
+    "question": "Will I receive reminders to complete my survey?",
+
+    "answer": "Yes. Automatic reminder notifications and emails may be sent before the survey deadline.",
+
+    "keywords": ["reminder", "notification", "deadline"]
+
+  },
+
+  {
+
+    "id": "me_016",
+
+    "question": "What happens if I don't complete my survey?",
+
+    "answer": "Failure to complete required surveys within the timeline may affect your programme tracking and could result in a drop-off status.",
+
+    "keywords": ["incomplete", "drop-off", "survey"]
+
+  },
+
+  {
+
+    "id": "me_017",
+
+    "question": "What is a drop-off survey?",
+
+    "answer": "A drop-off survey is sent when programme milestones are not completed within the required timeframe.",
+
+    "keywords": ["drop-off", "survey", "timeline"]
+
+  },
+
+  {
+
+    "id": "me_018",
+
+    "question": "Can I access my previous survey submissions?",
+
+    "answer": "Your survey history may be maintained by the system for programme tracking and review purposes.",
+
+    "keywords": ["history", "submission", "records"]
+
+  },
+
+  {
+
+    "id": "me_019",
+
+    "question": "How is my progress tracked?",
+
+    "answer": "Your progress is tracked through survey completion, programme milestones, and verification activities.",
+
+    "keywords": ["progress", "tracking", "status"]
+
+  },
+
+  {
+
+    "id": "me_020",
+
+    "question": "What does my programme status mean?",
+
+    "answer": "Your status reflects your current stage in the programme, such as Active, Funded, Alumni, or Dropped Off.",
+
+    "keywords": ["status", "active", "funded", "alumni"]
+
+  },
+
+  {
+
+    "id": "me_021",
+
+    "question": "What is a Fund Use Assessment?",
+
+    "answer": "It is a survey completed by alumni to report how programme funds were used, including receipt uploads.",
+
+    "keywords": ["fund use", "receipts", "alumni"]
+
+  },
+
+  {
+
+    "id": "me_022",
+
+    "question": "Who needs to complete the Fund Use Assessment?",
+
+    "answer": "Entrepreneurs who have reached Alumni status are required to complete the Fund Use Assessment.",
+
+    "keywords": ["alumni", "fund use"]
+
+  },
+
+  {
+
+    "id": "me_023",
+
+    "question": "Do I need to upload receipts for Fund Use Assessment?",
+
+    "answer": "Yes. Receipt uploads are mandatory as part of the Fund Use Assessment.",
+
+    "keywords": ["receipts", "fund use", "upload"]
+
+  },
+
+  {
+
+    "id": "me_024",
+
+    "question": "What is a Success Story?",
+
+    "answer": "A Success Story is your opportunity to share your entrepreneurial achievements using text, images, or videos.",
+
+    "keywords": ["success story", "achievement", "story"]
+
+  },
+
+  {
+
+    "id": "me_025",
+
+    "question": "How do I submit a Success Story?",
+
+    "answer": "You can submit your Success Story through the Alumni Community section using the dedicated submission form.",
+
+    "keywords": ["submit", "success story", "alumni"]
+
+  },
+
+  {
+
+    "id": "me_026",
+
+    "question": "Can I include photos and videos in my Success Story?",
+
+    "answer": "Yes. Success Stories can include text, images, and videos.",
+
+    "keywords": ["photos", "videos", "media"]
+
+  },
+
+  {
+
+    "id": "me_027",
+
+    "question": "Will my Success Story be published automatically?",
+
+    "answer": "No. Every Success Story is reviewed before it is approved and published.",
+
+    "keywords": ["approval", "review", "publish"]
+
+  },
+
+  {
+
+    "id": "me_028",
+
+    "question": "What happens if my Success Story is rejected?",
+
+    "answer": "You may receive remarks explaining why it was rejected and may be asked to update and resubmit it.",
+
+    "keywords": ["success story", "rejected", "remarks"]
+
+  },
+
+  {
+
+    "id": "me_029",
+
+    "question": "Will my personal information remain secure?",
+
+    "answer": "Your data is collected with your consent and managed according to programme policies.",
+
+    "keywords": ["privacy", "security", "data"]
+
+  },
+
+  {
+
+    "id": "me_030",
+
+    "question": "Can I save my survey and finish it later?",
+
+    "answer": "Survey availability depends on the survey configuration. Complete the survey before the deadline whenever possible.",
+
+    "keywords": ["save", "continue", "survey"]
+
+  },
+
+  {
+
+    "id": "me_031",
+
+    "question": "Why am I receiving reminder emails?",
+
+    "answer": "Reminder emails help ensure you complete required surveys before the submission deadline.",
+
+    "keywords": ["reminder", "email", "deadline"]
+
+  },
+
+  {
+
+    "id": "me_032",
+
+    "question": "Can I receive more than one survey?",
+
+    "answer": "Yes. Multiple surveys may be assigned throughout your programme journey.",
+
+    "keywords": ["multiple surveys", "journey", "programme"]
+
+  },
+
+  {
+
+    "id": "me_033",
+
+    "question": "What happens after I submit a survey?",
+
+    "answer": "Your submission is reviewed, validated, and recorded as part of your programme monitoring.",
+
+    "keywords": ["review", "submission", "validation"]
+
+  },
+
+  {
+
+    "id": "me_034",
+
+    "question": "Can surveys be assigned multiple times?",
+
+    "answer": "Yes. Some surveys may be repeated periodically to monitor your progress over time.",
+
+    "keywords": ["repeat survey", "monitoring", "quarterly"]
+
+  },
+
+  {
+
+    "id": "me_035",
+
+    "question": "How do I know whether my survey was submitted successfully?",
+
+    "answer": "After submission, your survey status will indicate that it has been successfully submitted.",
+
+    "keywords": ["submission status", "confirmation"]
+
+  },
+
+  {
+
+    "id": "me_036",
+
+    "question": "Can I contact support if I have issues completing my survey?",
+
+    "answer": "Yes. If you experience any issues, contact the programme support team for assistance.",
+
+    "keywords": ["support", "help", "survey issue"]
+
+  },
+
+  {
+
+    "id": "me_037",
+
+    "question": "What if I miss my verification appointment?",
+
+    "answer": "The verification may need to be rescheduled through the assigned enumerator.",
+
+    "keywords": ["verification", "appointment", "reschedule"]
+
+  },
+
+  {
+
+    "id": "me_038",
+
+    "question": "Will my business progress continue to be monitored after funding?",
+
+    "answer": "Yes. Additional surveys such as Endline and Fund Use Assessments may be conducted after funding.",
+
+    "keywords": ["funding", "endline", "monitoring"]
+
+  },
+
+  {
+
+    "id": "me_039",
+
+    "question": "Why does the programme collect supporting documents?",
+
+    "answer": "Supporting documents help validate survey responses and improve the accuracy of programme monitoring.",
+
+    "keywords": ["supporting documents", "validation", "evidence"]
+
+  },
+
+  {
+
+    "id": "me_040",
+
+    "question": "Can the chatbot help me understand the M&E process?",
+
+    "answer": "Yes. The chatbot can explain survey types, programme stages, document requirements, verification, and guide you through the Monitoring & Evaluation process.",
+
+    "keywords": ["chatbot", "guide", "m&e", "help"]
+
+  }
+
+]
+ 

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "pitching_001",
+    "question": "What is the Pitching Module and why do I need to complete it?",
+    "answer": "The Pitching Module allows you to submit your business plan and seed capital documents for review and approval as part of the TEF programme journey.",
+    "keywords": ["pitching", "module", "business plan", "approval", "programme"]
+  },
+  {
+    "id": "pitching_002",
+    "question": "Who can access the Pitching Module?",
+    "answer": "Only entrepreneurs who have successfully completed the LMS Module can access the Pitching Module.",
+    "keywords": ["eligibility", "lms", "access", "entrepreneur", "requirements"]
+  },
+  {
+    "id": "pitching_003",
+    "question": "What steps must I complete before uploading pitching documents?",
+    "answer": "You must complete identity verification, accept the Pitching Agreement, and successfully verify your OTP before proceeding.",
+    "keywords": ["identity verification", "agreement", "otp", "requirements", "access"]
+  },
+  {
+    "id": "pitching_004",
+    "question": "What is the Pitching Agreement?",
+    "answer": "The Pitching Agreement is a mandatory agreement that you must accept before accessing and participating in the Pitching Module.",
+    "keywords": ["agreement", "acceptance", "pitching agreement", "mandatory", "terms"]
+  },
+  {
+    "id": "pitching_005",
+    "question": "Can I view the Pitching Agreement in my preferred language?",
+    "answer": "Yes. The Pitching Agreement is available in the supported preferred languages configured by TEF.",
+    "keywords": ["language", "agreement", "translation", "multilingual", "support"]
+  },
+  {
+    "id": "pitching_006",
+    "question": "Why am I required to verify my mobile number?",
+    "answer": "Mobile number verification through OTP is required to complete identity verification and access the Pitching Module.",
+    "keywords": ["otp", "mobile verification", "identity", "security", "authentication"]
+  },
+  {
+    "id": "pitching_007",
+    "question": "What information do I need for identity verification?",
+    "answer": "You need to provide your name, email address, country, mobile number, and required identification documents.",
+    "keywords": ["identity verification", "profile", "personal details", "documents", "verification"]
+  },
+  {
+    "id": "pitching_008",
+    "question": "What happens if my uploaded ID document has expired?",
+    "answer": "The system will notify you and allow you to upload a new valid ID document while retaining previous records for audit purposes.",
+    "keywords": ["expired id", "identity card", "document upload", "verification", "audit"]
+  },
+  {
+    "id": "pitching_009",
+    "question": "What is Window A in the Pitching Module?",
+    "answer": "Window A is the Business Plan phase where you upload business-related documents for external review.",
+    "keywords": ["window a", "business plan", "phase", "documents", "review"]
+  },
+  {
+    "id": "pitching_010",
+    "question": "What is Window B in the Pitching Module?",
+    "answer": "Window B is the Seed Capital phase where you upload seed capital-related documents for intern review.",
+    "keywords": ["window b", "seed capital", "phase", "documents", "review"]
+  },
+  {
+    "id": "pitching_011",
+    "question": "Can I start Window B before completing Window A?",
+    "answer": "No. You must complete the Business Plan phase (Window A) before proceeding to the Seed Capital phase (Window B).",
+    "keywords": ["window a", "window b", "sequence", "workflow", "requirements"]
+  },
+  {
+    "id": "pitching_012",
+    "question": "What documents are required in Window A?",
+    "answer": "Window A may require a Business Plan, Financial Plan, Pitch Video, Business Registration Certificate, Government ID, Tax Certificate, Bank Letter, Partners' Consent, and Birth Certificate.",
+    "keywords": ["window a", "business plan", "documents", "requirements", "upload"]
+  },
+  {
+    "id": "pitching_013",
+    "question": "Do I need to upload a Pitch Video?",
+    "answer": "Yes. Uploading a Pitch Video is a mandatory part of the Window A submission requirements.",
+    "keywords": ["pitch video", "video upload", "requirements", "window a", "submission"]
+  },
+  {
+    "id": "pitching_014",
+    "question": "Are there limits on the Pitch Video I upload?",
+    "answer": "Yes. The Pitch Video must comply with the configured file size and duration limits defined by the programme.",
+    "keywords": ["pitch video", "file size", "duration", "limits", "upload"]
+  },
+  {
+    "id": "pitching_015",
+    "question": "What is the Business Executive Summary?",
+    "answer": "The Business Executive Summary is a written overview of your business that must contain between 1,000 and 3,000 words.",
+    "keywords": ["executive summary", "business summary", "word limit", "business plan", "content"]
+  },
+  {
+    "id": "pitching_016",
+    "question": "Can I type or paste my Business Executive Summary?",
+    "answer": "Yes. You can either type the content directly into the system or copy and paste it.",
+    "keywords": ["executive summary", "typing", "copy paste", "submission", "content"]
+  },
+  {
+    "id": "pitching_017",
+    "question": "Can I edit my documents after uploading them?",
+    "answer": "Yes. You can edit uploaded information and documents until the corresponding phase is submitted.",
+    "keywords": ["edit documents", "update", "submission", "changes", "uploads"]
+  },
+  {
+    "id": "pitching_018",
+    "question": "Do I need to submit all required documents before review begins?",
+    "answer": "Yes. Required documents for each phase must be uploaded before the review process can proceed.",
+    "keywords": ["submission", "documents", "review", "requirements", "workflow"]
+  },
+  {
+    "id": "pitching_019",
+    "question": "Who reviews my Business Plan documents?",
+    "answer": "Your Window A documents are reviewed by an External Reviewer User, EY QA, and finally the EY Admin.",
+    "keywords": ["review", "business plan", "ey user", "ey qa", "ey admin"]
+  },
+  {
+    "id": "pitching_020",
+    "question": "Who reviews my Seed Capital documents?",
+    "answer": "Your Window B Seed Capital documents are reviewed by an assigned Intern.",
+    "keywords": ["seed capital", "intern", "review", "window b", "evaluation"]
+  },
+  {
+    "id": "pitching_021",
+    "question": "How can I track the status of my pitching application?",
+    "answer": "You can monitor the status of your application through the Pitching Module dashboard and application status updates.",
+    "keywords": ["status", "tracking", "application", "dashboard", "progress"]
+  },
+  {
+    "id": "pitching_022",
+    "question": "Will I be notified if changes are required in my submission?",
+    "answer": "Yes. You will receive notifications whenever a reviewer requests document resubmission.",
+    "keywords": ["notification", "resubmission", "review", "updates", "alerts"]
+  },
+  {
+    "id": "pitching_023",
+    "question": "What happens if an Intern requests resubmission?",
+    "answer": "You will receive remarks, a list of documents requiring correction, and a deadline for resubmission.",
+    "keywords": ["resubmission", "intern", "remarks", "corrections", "deadline"]
+  },
+  {
+    "id": "pitching_024",
+    "question": "Can I see the reasons for a resubmission request?",
+    "answer": "Yes. Review remarks explaining the required corrections are included in the resubmission notification.",
+    "keywords": ["remarks", "feedback", "resubmission", "review comments", "corrections"]
+  },
+  {
+    "id": "pitching_025",
+    "question": "Do I need to re-upload all documents when resubmitting?",
+    "answer": "No. You only need to resubmit the documents specifically requested for correction.",
+    "keywords": ["resubmission", "documents", "corrections", "upload", "review"]
+  },
+  {
+    "id": "pitching_026",
+    "question": "Can I resubmit documents multiple times?",
+    "answer": "Yes. You may continue resubmitting requested documents until they are approved or the deadline expires.",
+    "keywords": ["multiple resubmissions", "deadline", "approval", "review", "corrections"]
+  },
+  {
+    "id": "pitching_027",
+    "question": "What happens if I miss a resubmission deadline?",
+    "answer": "Your application may be marked as deadline missed and processed according to programme rules.",
+    "keywords": ["deadline", "resubmission", "missed deadline", "programme rules", "application"]
+  },
+  {
+    "id": "pitching_028",
+    "question": "What happens if I fail to complete pitching activities on time?",
+    "answer": "Entrepreneurs who fail to complete required activities within configured timelines may be removed from the programme.",
+    "keywords": ["timeline", "programme removal", "deadline", "requirements", "disqualification"]
+  },
+  {
+    "id": "pitching_029",
+    "question": "How are pitching timelines determined?",
+    "answer": "Programme timelines are configured by administrators and may vary depending on the programme.",
+    "keywords": ["timeline", "programme", "deadlines", "schedule", "configuration"]
+  },
+  {
+    "id": "pitching_030",
+    "question": "Can I upload documents using my own format?",
+    "answer": "Some documents may need to follow templates provided by the programme administrators.",
+    "keywords": ["templates", "document format", "uploads", "requirements", "compliance"]
+  },
+  {
+    "id": "pitching_031",
+    "question": "What is the purpose of the external review process?",
+    "answer": "The external review process evaluates the quality, completeness, and viability of your business plan submission.",
+    "keywords": ["external review", "business plan", "evaluation", "quality", "assessment"]
+  },
+  {
+    "id": "pitching_032",
+    "question": "Can reviewers change their assessment of my application?",
+    "answer": "Yes. Different reviewers may provide independent evaluations, and the EY Admin can make the final assessment.",
+    "keywords": ["review", "assessment", "grading", "ey admin", "evaluation"]
+  },
+  {
+    "id": "pitching_033",
+    "question": "When does the review process start?",
+    "answer": "Reviews begin after the required documents for the relevant phase have been submitted.",
+    "keywords": ["review start", "submission", "workflow", "evaluation", "documents"]
+  },
+  {
+    "id": "pitching_034",
+    "question": "Can I view reviewer comments on my application?",
+    "answer": "You will receive relevant feedback and remarks whenever corrections or resubmissions are required.",
+    "keywords": ["review comments", "feedback", "remarks", "resubmission", "evaluation"]
+  },
+  {
+    "id": "pitching_035",
+    "question": "What happens after my application is approved?",
+    "answer": "Applications approved through the required review process are moved to the Audit Module.",
+    "keywords": ["approval", "audit module", "next stage", "workflow", "completion"]
+  },
+  {
+    "id": "pitching_036",
+    "question": "Can I access previous versions of my uploaded documents?",
+    "answer": "The system maintains document history for audit purposes, including updated and resubmitted versions.",
+    "keywords": ["document history", "audit", "versions", "uploads", "records"]
+  },
+  {
+    "id": "pitching_037",
+    "question": "Why is my previous ID document still visible after uploading a new one?",
+    "answer": "Previous and updated identity documents are retained to maintain a complete audit trail.",
+    "keywords": ["identity card", "audit trail", "document history", "verification", "records"]
+  },
+  {
+    "id": "pitching_038",
+    "question": "Can the chatbot help me understand pitching requirements?",
+    "answer": "Yes. The chatbot can explain pitching workflows, document requirements, timelines, and review processes.",
+    "keywords": ["chatbot", "requirements", "guidance", "workflow", "support"]
+  },
+  {
+    "id": "pitching_039",
+    "question": "Can the chatbot tell me what documents I still need to upload?",
+    "answer": "The chatbot can guide you on required documents and explain the submission requirements for each phase.",
+    "keywords": ["chatbot", "documents", "uploads", "requirements", "guidance"]
+  },
+  {
+    "id": "pitching_040",
+    "question": "How do I successfully complete the Pitching Module?",
+    "answer": "Complete LMS, verify your identity, accept the agreement, upload all required Window A and Window B documents, respond to review requests, and meet all deadlines.",
+    "keywords": ["completion", "pitching module", "success", "requirements", "workflow"]
+  }
+]

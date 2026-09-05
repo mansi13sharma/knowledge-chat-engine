@@ -1,0 +1,92 @@
+[
+  {
+    "id": "greeting_001",
+    "question": "Hi",
+    "answer": "Hello! 👋 Welcome to TEFConnect. How can I assist you today?",
+    "keywords": ["hi", "hello", "greetings", "welcome", "start conversation"]
+  },
+  {
+    "id": "greeting_002",
+    "question": "Hello",
+    "answer": "Hi there! I'm your TEFConnect assistant. What can I help you with today?",
+    "keywords": ["hello", "hi", "greetings", "welcome", "assistant"]
+  },
+  {
+    "id": "greeting_003",
+    "question": "Hey",
+    "answer": "Hey! How can I help you today?",
+    "keywords": ["hey", "hi", "greeting", "hello", "start"]
+  },
+  {
+    "id": "greeting_004",
+    "question": "Good morning",
+    "answer": "Good morning! Welcome to TEFConnect. How may I assist you today?",
+    "keywords": ["good morning", "morning", "greeting", "welcome", "hello"]
+  },
+  {
+    "id": "greeting_005",
+    "question": "Good afternoon",
+    "answer": "Good afternoon! How can I help you today?",
+    "keywords": ["good afternoon", "afternoon", "greeting", "hello"]
+  },
+  {
+    "id": "greeting_006",
+    "question": "Good evening",
+    "answer": "Good evening! How may I assist you today?",
+    "keywords": ["good evening", "evening", "greeting", "hello"]
+  },
+  {
+    "id": "greeting_007",
+    "question": "How are you?",
+    "answer": "I'm doing well, thank you for asking! 😊 I'm here and ready to help with any questions about TEFConnect.",
+    "keywords": ["how are you", "how are you doing", "are you okay", "assistant status", "greeting"]
+  },
+  {
+    "id": "greeting_008",
+    "question": "Who are you?",
+    "answer": "I'm the TEFConnect AI Assistant. I can help you navigate the platform, answer questions about different modules, and guide you through your entrepreneurial journey.",
+    "keywords": ["who are you", "assistant", "AI assistant", "TEFConnect bot", "identity"]
+  },
+  {
+    "id": "greeting_009",
+    "question": "What can you do?",
+    "answer": "I can answer questions about TEFConnect, guide you through LMS, Pitching, Mentorship, Verification, Audit, M&E, explain platform features, and connect you to support if needed.",
+    "keywords": ["what can you do", "capabilities", "help", "features", "modules", "support"]
+  },
+  {
+    "id": "greeting_010",
+    "question": "Thank you",
+    "answer": "You're welcome! 😊 If you have any more questions, I'm here to help.",
+    "keywords": ["thank you", "thanks", "appreciation", "gratitude", "welcome"]
+  },
+  {
+    "id": "greeting_011",
+    "question": "Thanks",
+    "answer": "Happy to help! Let me know if there's anything else you need.",
+    "keywords": ["thanks", "thank you", "gratitude", "appreciation", "welcome"]
+  },
+  {
+    "id": "greeting_012",
+    "question": "Bye",
+    "answer": "Goodbye! 👋 Have a great day, and feel free to return anytime you need assistance.",
+    "keywords": ["bye", "goodbye", "see you", "farewell", "exit"]
+  },
+  {
+    "id": "greeting_013",
+    "question": "Goodbye",
+    "answer": "Goodbye! Wishing you success on your entrepreneurial journey. Take care!",
+    "keywords": ["goodbye", "bye", "farewell", "see you later", "exit"]
+  },
+  {
+    "id": "greeting_014",
+    "question": "See you later",
+    "answer": "See you later! I'll be here whenever you need assistance.",
+    "keywords": ["see you later", "bye", "farewell", "goodbye", "see you"]
+  },
+  {
+    "id": "greeting_015",
+    "question": "Can you help me?",
+    "answer": "Absolutely! Tell me what you need help with, and I'll do my best to assist you.",
+    "keywords": ["help", "can you help me", "assist", "support", "need help", "guidance"]
+  }
+]

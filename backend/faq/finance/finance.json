@@ -1,0 +1,242 @@
+[
+  {
+    "id": "finance_001",
+    "question": "How can I check whether I have been funded?",
+    "answer": "You can view your current funding status in the Finance module. Your status may appear as Endorsed, Pending, Paid, or Alumni.",
+    "keywords": ["funding status", "paid", "pending", "endorsed", "alumni"]
+  },
+  {
+    "id": "finance_002",
+    "question": "What does 'Endorsed' mean?",
+    "answer": "Endorsed means your application has been approved and is eligible to proceed through the funding process.",
+    "keywords": ["endorsed", "approval", "funding", "application"]
+  },
+  {
+    "id": "finance_003",
+    "question": "What does 'Pending' mean in my funding status?",
+    "answer": "Pending means your funding has not yet been marked as paid. Your application is still awaiting completion of the funding process.",
+    "keywords": ["pending", "funding", "status", "payment"]
+  },
+  {
+    "id": "finance_004",
+    "question": "What does 'Paid' mean?",
+    "answer": "Paid means your funding has been successfully processed and recorded in the Finance module.",
+    "keywords": ["paid", "funded", "payment", "status"]
+  },
+  {
+    "id": "finance_005",
+    "question": "What is an Alumni status?",
+    "answer": "Once your funding is completed and processed, your profile is automatically moved to Alumni status.",
+    "keywords": ["alumni", "status", "funded", "profile"]
+  },
+  {
+    "id": "finance_006",
+    "question": "Can I see which partner funded my business?",
+    "answer": "Yes. If partner information is available for your profile, you can view the funding partner associated with your programme.",
+    "keywords": ["partner", "funding partner", "programme", "sponsor"]
+  },
+  {
+    "id": "finance_007",
+    "question": "Can I update my funding status myself?",
+    "answer": "No. Funding statuses are managed by the Finance team and cannot be changed by entrepreneurs.",
+    "keywords": ["update status", "finance", "payment", "entrepreneur"]
+  },
+  {
+    "id": "finance_008",
+    "question": "Why is my status still showing as Pending?",
+    "answer": "Your status remains Pending until the Finance team confirms and records your funding as paid.",
+    "keywords": ["pending", "delay", "funding", "payment"]
+  },
+  {
+    "id": "finance_009",
+    "question": "Will I receive a notification after my funding is approved?",
+    "answer": "Yes. The system sends a notification and email once your funding has been recorded by the Finance team.",
+    "keywords": ["notification", "email", "funding", "approved"]
+  },
+  {
+    "id": "finance_010",
+    "question": "Can I track my payment history?",
+    "answer": "You can view your current funding status, but detailed payment history depends on the information made available in the platform.",
+    "keywords": ["payment history", "tracking", "funding", "status"]
+  },
+  {
+    "id": "finance_011",
+    "question": "How do I know if my funding has been delayed?",
+    "answer": "If your status remains Pending for an extended period, you may contact TEF support for further clarification.",
+    "keywords": ["delay", "pending", "support", "funding"]
+  },
+  {
+    "id": "finance_012",
+    "question": "Can I see the amount allocated to me?",
+    "answer": "The visibility of funding amounts depends on the programme and the information made available through the platform.",
+    "keywords": ["funding amount", "allocation", "budget"]
+  },
+  {
+    "id": "finance_013",
+    "question": "Can I edit my funding information?",
+    "answer": "No. Funding records are maintained by authorized Finance administrators to ensure accuracy.",
+    "keywords": ["edit funding", "finance", "records"]
+  },
+  {
+    "id": "finance_014",
+    "question": "Who updates my payment status?",
+    "answer": "Your payment status is updated manually by the Finance team after confirming funding information.",
+    "keywords": ["payment status", "finance admin", "manual update"]
+  },
+  {
+    "id": "finance_015",
+    "question": "What happens after I am marked as Paid?",
+    "answer": "After your funding is marked as Paid, your profile is automatically transitioned to Alumni status.",
+    "keywords": ["paid", "alumni", "status"]
+  },
+  {
+    "id": "finance_016",
+    "question": "Can I request a change to my assigned funding partner?",
+    "answer": "No. Partner assignments are managed and validated before they reach the Finance module.",
+    "keywords": ["partner", "change partner", "assignment"]
+  },
+  {
+    "id": "finance_017",
+    "question": "How is my funding partner selected?",
+    "answer": "Funding partners are assigned based on programme requirements and validated before financial processing.",
+    "keywords": ["partner assignment", "programme", "validation"]
+  },
+  {
+    "id": "finance_018",
+    "question": "Can I choose the partner that funds my business?",
+    "answer": "No. Partner allocation is handled by TEF and follows predefined allocation and validation processes.",
+    "keywords": ["choose partner", "partner allocation", "funding"]
+  },
+  {
+    "id": "finance_019",
+    "question": "Can I see budget information for my programme?",
+    "answer": "Only information made available to entrepreneurs can be viewed. Internal budget management is handled by Finance administrators.",
+    "keywords": ["budget", "programme", "finance"]
+  },
+  {
+    "id": "finance_020",
+    "question": "Does the platform process bank transfers?",
+    "answer": "No. The Finance module tracks funding information but does not perform financial transactions.",
+    "keywords": ["bank transfer", "payment", "transactions"]
+  },
+  {
+    "id": "finance_021",
+    "question": "Can I download my funding information?",
+    "answer": "The availability of downloadable funding information depends on the features enabled for entrepreneurs.",
+    "keywords": ["download", "funding", "export"]
+  },
+  {
+    "id": "finance_022",
+    "question": "How often is my funding status updated?",
+    "answer": "Your funding status is updated whenever the Finance team records a change in your payment progress.",
+    "keywords": ["status update", "funding", "payment"]
+  },
+  {
+    "id": "finance_023",
+    "question": "Why haven't I received my funding notification?",
+    "answer": "Notifications are sent after funding is officially recorded. If you believe one is missing, contact TEF support.",
+    "keywords": ["notification", "email", "support"]
+  },
+  {
+    "id": "finance_024",
+    "question": "Can I see the programme associated with my funding?",
+    "answer": "Yes, if programme information is available for your account, it will be displayed alongside your funding details.",
+    "keywords": ["programme", "funding", "details"]
+  },
+  {
+    "id": "finance_025",
+    "question": "Does the Finance module support different currencies?",
+    "answer": "Yes. The system supports multiple currencies such as USD, Naira, Pounds, and Euros where applicable.",
+    "keywords": ["currency", "USD", "Naira", "Euro", "Pounds"]
+  },
+  {
+    "id": "finance_026",
+    "question": "Can I change the currency of my funding?",
+    "answer": "No. Currency selection is managed during budget creation by authorized administrators.",
+    "keywords": ["currency", "change currency", "budget"]
+  },
+  {
+    "id": "finance_027",
+    "question": "What should I do if my funding details look incorrect?",
+    "answer": "If you notice incorrect funding information, please contact TEF support for assistance.",
+    "keywords": ["incorrect", "funding", "support"]
+  },
+  {
+    "id": "finance_028",
+    "question": "Can I view reports about programme funding?",
+    "answer": "Entrepreneurs can only access reports and information that are made available through their account.",
+    "keywords": ["reports", "programme", "funding"]
+  },
+  {
+    "id": "finance_029",
+    "question": "Will my profile automatically change after funding?",
+    "answer": "Yes. Once your funding is completed, the system automatically updates your profile to Alumni status.",
+    "keywords": ["profile", "alumni", "automatic"]
+  },
+  {
+    "id": "finance_030",
+    "question": "Can I see funding progress for other entrepreneurs?",
+    "answer": "No. You can only access information related to your own account.",
+    "keywords": ["privacy", "entrepreneurs", "funding"]
+  },
+  {
+    "id": "finance_031",
+    "question": "How can I confirm that TEF has recorded my payment?",
+    "answer": "Your payment is considered recorded when your status changes to Paid in the Finance module.",
+    "keywords": ["payment confirmation", "paid", "status"]
+  },
+  {
+    "id": "finance_032",
+    "question": "Can I contact Finance through the platform?",
+    "answer": "If support options are enabled, you can use the available communication channels to reach the appropriate team.",
+    "keywords": ["finance", "support", "contact"]
+  },
+  {
+    "id": "finance_033",
+    "question": "Does the Finance module store my banking information?",
+    "answer": "The Finance module focuses on tracking funding information rather than processing financial transactions.",
+    "keywords": ["bank details", "finance", "transactions"]
+  },
+  {
+    "id": "finance_034",
+    "question": "Can I receive funding from multiple partners?",
+    "answer": "Funding arrangements depend on your programme. Some programmes may involve contributions from multiple partners.",
+    "keywords": ["multiple partners", "funding", "programme"]
+  },
+  {
+    "id": "finance_035",
+    "question": "Can I view comments related to my unpaid funding?",
+    "answer": "Any information made available to entrepreneurs regarding funding progress will be displayed within your account where applicable.",
+    "keywords": ["comments", "pending", "funding"]
+  },
+  {
+    "id": "finance_036",
+    "question": "What happens if my payment has not been recorded?",
+    "answer": "If you believe your payment is missing, contact TEF support so the Finance team can review your record.",
+    "keywords": ["missing payment", "support", "finance"]
+  },
+  {
+    "id": "finance_037",
+    "question": "Can I track the overall budget of my programme?",
+    "answer": "Detailed programme budgets are managed internally and may not be visible to entrepreneurs.",
+    "keywords": ["budget", "programme", "tracking"]
+  },
+  {
+    "id": "finance_038",
+    "question": "Does the Finance module manage the actual transfer of funds?",
+    "answer": "No. The module records and tracks funding information but does not execute financial transactions.",
+    "keywords": ["fund transfer", "transactions", "finance"]
+  },
+  {
+    "id": "finance_039",
+    "question": "How can I know when my funding process is complete?",
+    "answer": "Your funding process is complete once your status changes to Paid and your profile is moved to Alumni.",
+    "keywords": ["complete", "paid", "alumni"]
+  },
+  {
+    "id": "finance_040",
+    "question": "Can the chatbot help me understand my funding status?",
+    "answer": "Yes. The chatbot can explain your funding status, what it means, and guide you on the next steps where applicable.",
+    "keywords": ["chatbot", "funding status", "help", "guidance"]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "audit_001",
+    "question": "What is the Audit Module?",
+    "answer": "The Audit Module is the stage where your application is reviewed to determine whether you are eligible for seed capital funding.",
+    "keywords": ["audit", "audit module", "review", "funding", "eligibility"]
+  },
+  {
+    "id": "audit_002",
+    "question": "Why is my application being audited?",
+    "answer": "Your application is audited to verify that you meet the eligibility requirements and comply with the program before any funding decision is made.",
+    "keywords": ["why audit", "eligibility", "verification", "review"]
+  },
+  {
+    "id": "audit_003",
+    "question": "When does my application enter the Audit Module?",
+    "answer": "Your application enters the Audit Module only after you have completed all required program stages, including verification, training, pitching, and submitting the required documents.",
+    "keywords": ["enter audit", "requirements", "training", "pitching", "documents"]
+  },
+  {
+    "id": "audit_004",
+    "question": "What happens during the Audit Module?",
+    "answer": "During the audit, your application and supporting information are reviewed to determine whether you meet the program's funding requirements.",
+    "keywords": ["audit process", "review", "evaluation"]
+  },
+  {
+    "id": "audit_005",
+    "question": "Who reviews my application during the audit?",
+    "answer": "Your application is reviewed by an assigned Auditor as part of the Audit Module process.",
+    "keywords": ["auditor", "reviewer", "application review"]
+  },
+  {
+    "id": "audit_006",
+    "question": "Can I skip the Audit Module?",
+    "answer": "No. Every entrepreneur must successfully complete the Audit Module before proceeding to the Finance stage.",
+    "keywords": ["skip audit", "mandatory", "finance"]
+  },
+  {
+    "id": "audit_007",
+    "question": "What does 'Not Started' mean?",
+    "answer": "The 'Not Started' status means your audit review has not yet begun.",
+    "keywords": ["not started", "status"]
+  },
+  {
+    "id": "audit_008",
+    "question": "What does 'In Progress' mean?",
+    "answer": "The 'In Progress' status means your application is currently being reviewed by the audit team.",
+    "keywords": ["in progress", "audit status"]
+  },
+  {
+    "id": "audit_009",
+    "question": "What does 'Queried' mean?",
+    "answer": "The 'Queried' status means the Auditor has raised a query during the review process and it is awaiting a response from TEF Admin.",
+    "keywords": ["queried", "query", "status"]
+  },
+  {
+    "id": "audit_010",
+    "question": "What does 'Reviewed' mean?",
+    "answer": "The 'Reviewed' status means the audit evaluation has been completed and the application is ready for a final decision.",
+    "keywords": ["reviewed", "status", "completed"]
+  },
+  {
+    "id": "audit_011",
+    "question": "What does 'Endorsed' mean?",
+    "answer": "An 'Endorsed' status means your application has been approved during the audit and is eligible to proceed to the Finance Module.",
+    "keywords": ["endorsed", "approved", "finance"]
+  },
+  {
+    "id": "audit_012",
+    "question": "What does 'Disqualified' mean?",
+    "answer": "A 'Disqualified' status means your application did not meet the audit requirements and is not eligible for funding.",
+    "keywords": ["disqualified", "rejected", "funding"]
+  },
+  {
+    "id": "audit_013",
+    "question": "What happens after my application is endorsed?",
+    "answer": "Once your application is endorsed, it moves to the Finance Module for further processing.",
+    "keywords": ["after endorsed", "finance", "next step"]
+  },
+  {
+    "id": "audit_014",
+    "question": "Can I receive funding without passing the audit?",
+    "answer": "No. Funding can only proceed after your application successfully passes the Audit Module.",
+    "keywords": ["funding", "audit", "eligibility"]
+  },
+  {
+    "id": "audit_015",
+    "question": "Can I edit my application after it enters the Audit Module?",
+    "answer": "No. Once your application enters the Audit Module, further modifications or resubmissions are not allowed.",
+    "keywords": ["edit application", "modify", "resubmit"]
+  },
+  {
+    "id": "audit_016",
+    "question": "Can I resubmit my application after it is disqualified?",
+    "answer": "No. Once a final audit decision has been recorded, resubmission through the Audit Module is not permitted.",
+    "keywords": ["resubmit", "disqualified", "application"]
+  },
+  {
+    "id": "audit_017",
+    "question": "How is my application evaluated during the audit?",
+    "answer": "Auditors review different parts of your application and evaluate them before a final decision is made.",
+    "keywords": ["evaluation", "review", "assessment"]
+  },
+  {
+    "id": "audit_018",
+    "question": "What parts of my application are reviewed?",
+    "answer": "The audit includes reviewing areas such as your User Profile, LMS completion, and Pitching information.",
+    "keywords": ["user profile", "lms", "pitching"]
+  },
+  {
+    "id": "audit_019",
+    "question": "Does every part of my application need to be reviewed?",
+    "answer": "Yes. Each required module is reviewed before the Audit Admin records a final decision.",
+    "keywords": ["modules", "review", "requirements"]
+  },
+  {
+    "id": "audit_020",
+    "question": "What happens if an issue is found during the audit?",
+    "answer": "If an issue is identified, it may result in a query being raised or affect the final audit decision.",
+    "keywords": ["issue", "query", "audit"]
+  },
+  {
+    "id": "audit_021",
+    "question": "Can my application remain under review for some time?",
+    "answer": "Yes. Your application remains under review until the audit process is completed and a final decision is recorded.",
+    "keywords": ["under review", "audit progress"]
+  },
+  {
+    "id": "audit_022",
+    "question": "Will someone manually review my application?",
+    "answer": "Yes. Assigned Auditors manually review entrepreneur applications during the Audit Module.",
+    "keywords": ["manual review", "auditor"]
+  },
+  {
+    "id": "audit_023",
+    "question": "Can my audit decision change?",
+    "answer": "An Audit Admin may move an endorsed or disqualified application back to review if further evaluation is required.",
+    "keywords": ["decision change", "review"]
+  },
+  {
+    "id": "audit_024",
+    "question": "What are the possible outcomes of the Audit Module?",
+    "answer": "The final outcomes are Endorsed or Disqualified.",
+    "keywords": ["outcomes", "endorsed", "disqualified"]
+  },
+  {
+    "id": "audit_025",
+    "question": "Can my application move back to review after a decision?",
+    "answer": "Yes. If necessary, an Audit Admin may return an application to the review stage for further evaluation.",
+    "keywords": ["back to review", "evaluation"]
+  },
+  {
+    "id": "audit_026",
+    "question": "Does the Audit Module verify my eligibility for funding?",
+    "answer": "Yes. The Audit Module determines whether you meet the requirements for seed capital funding.",
+    "keywords": ["eligibility", "funding"]
+  },
+  {
+    "id": "audit_027",
+    "question": "Is the Audit Module the final step before Finance?",
+    "answer": "Yes. The Audit Module acts as the final eligibility gate before your application proceeds to Finance.",
+    "keywords": ["finance", "final step"]
+  },
+  {
+    "id": "audit_028",
+    "question": "Why can't I access the Finance Module yet?",
+    "answer": "Your application must first successfully complete the Audit Module before it can move to Finance.",
+    "keywords": ["finance", "audit pending"]
+  },
+  {
+    "id": "audit_029",
+    "question": "Does the Audit Module check for compliance?",
+    "answer": "Yes. The audit ensures that applications are compliant and meet the program's eligibility requirements.",
+    "keywords": ["compliance", "eligibility"]
+  },
+  {
+    "id": "audit_030",
+    "question": "Does the Audit Module help prevent fraud?",
+    "answer": "Yes. One objective of the Audit Module is to detect fraud and ensure that only eligible entrepreneurs proceed to funding.",
+    "keywords": ["fraud", "compliance", "audit"]
+  },
+  {
+    "id": "audit_031",
+    "question": "Can my application be rejected during the audit?",
+    "answer": "Yes. If your application does not satisfy the audit requirements, it may receive a Disqualified decision.",
+    "keywords": ["rejected", "disqualified"]
+  },
+  {
+    "id": "audit_032",
+    "question": "What determines whether I receive funding?",
+    "answer": "Your application must successfully complete the Audit Module and receive an Endorsed decision before proceeding to Finance.",
+    "keywords": ["funding", "endorsed", "eligibility"]
+  },
+  {
+    "id": "audit_033",
+    "question": "Is every entrepreneur audited?",
+    "answer": "Yes. Every entrepreneur must pass through the Audit Module before reaching the Finance stage.",
+    "keywords": ["everyone", "mandatory audit"]
+  },
+  {
+    "id": "audit_034",
+    "question": "Can I know the progress of my audit?",
+    "answer": "Yes. Your application status reflects the current stage of the audit process, such as Not Started, In Progress, Queried, Reviewed, Endorsed, or Disqualified.",
+    "keywords": ["progress", "status", "audit tracking"]
+  },
+  {
+    "id": "audit_035",
+    "question": "What happens if my application is still In Progress?",
+    "answer": "It means your application is currently being reviewed and a final audit decision has not yet been recorded.",
+    "keywords": ["in progress", "review"]
+  },
+  {
+    "id": "audit_036",
+    "question": "Will my application automatically move to Finance after endorsement?",
+    "answer": "Yes. Endorsed applications proceed to the Finance Module for further processing.",
+    "keywords": ["finance", "endorsed", "next stage"]
+  },
+  {
+    "id": "audit_037",
+    "question": "What is the purpose of the Audit Module in the TEF program?",
+    "answer": "The Audit Module ensures that only eligible, compliant, and non-fraudulent applications proceed to the funding stage.",
+    "keywords": ["purpose", "audit", "funding"]
+  },
+  {
+    "id": "audit_038",
+    "question": "Can I continue updating my application while it is under audit?",
+    "answer": "No. Applications cannot be modified once they have entered the Audit Module.",
+    "keywords": ["update application", "audit", "modification"]
+  },
+  {
+    "id": "audit_039",
+    "question": "What happens after the audit is completed?",
+    "answer": "Once the audit is completed, your application receives a final decision of either Endorsed or Disqualified.",
+    "keywords": ["after audit", "decision"]
+  },
+  {
+    "id": "audit_040",
+    "question": "Why is the Audit Module important?",
+    "answer": "The Audit Module protects the integrity of the program by ensuring that only eligible entrepreneurs proceed to the Finance stage.",
+    "keywords": ["importance", "integrity", "funding", "eligibility"]
+  }
+]

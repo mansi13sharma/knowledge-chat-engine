@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mentorship_001",
+    "question": "How do I access the Mentorship module?",
+    "answer": "Log in to the Entrepreneur Portal and navigate to the Mentorship section from the side menu.",
+    "keywords": ["mentorship", "access", "dashboard", "portal", "navigation"]
+  },
+  {
+    "id": "mentorship_002",
+    "question": "How can I see who my assigned mentor is?",
+    "answer": "The Mentorship page displays your assigned mentor's details, including their name, email address, and contact information.",
+    "keywords": ["assigned mentor", "mentor details", "contact", "email", "profile"]
+  },
+  {
+    "id": "mentorship_003",
+    "question": "Can I contact my mentor through the platform?",
+    "answer": "Yes. You can communicate with your mentor by submitting mentorship queries through the Ask Query feature.",
+    "keywords": ["contact mentor", "ask query", "communication", "mentor", "support"]
+  },
+  {
+    "id": "mentorship_004",
+    "question": "How do I ask a question to my mentor?",
+    "answer": "Open the Mentorship page, click the 'Ask Query' button, enter your question, and submit it.",
+    "keywords": ["ask query", "mentor question", "submit", "guidance", "support"]
+  },
+  {
+    "id": "mentorship_005",
+    "question": "Can I view all the questions I've asked my mentor?",
+    "answer": "Yes. The platform displays your complete query history, including the query, response, date, time, and current status.",
+    "keywords": ["query history", "questions", "responses", "status", "history"]
+  },
+  {
+    "id": "mentorship_006",
+    "question": "How do I know whether my mentor has replied?",
+    "answer": "Each query has a status such as Answered or Unanswered, and the mentor's response appears once it has been submitted.",
+    "keywords": ["answered", "unanswered", "query status", "response", "mentor reply"]
+  },
+  {
+    "id": "mentorship_007",
+    "question": "Can I edit my query after submitting it?",
+    "answer": "Yes. You can edit your query until your mentor submits a response.",
+    "keywords": ["edit query", "update", "modify", "before response", "query"]
+  },
+  {
+    "id": "mentorship_008",
+    "question": "Can I delete a query I submitted?",
+    "answer": "Yes. You may delete your query as long as your mentor has not yet responded.",
+    "keywords": ["delete query", "remove", "query", "before answer", "edit"]
+  },
+  {
+    "id": "mentorship_009",
+    "question": "Why can't I edit or delete my query anymore?",
+    "answer": "Once your mentor responds, the query becomes read-only and can no longer be edited or deleted.",
+    "keywords": ["read only", "answered query", "edit restriction", "delete restriction", "response"]
+  },
+  {
+    "id": "mentorship_010",
+    "question": "Can I filter my mentorship queries?",
+    "answer": "Yes. You can filter your queries using available date and status filters.",
+    "keywords": ["filter", "date", "status", "queries", "search"]
+  },
+  {
+    "id": "mentorship_011",
+    "question": "What information is shown for each mentorship query?",
+    "answer": "Each query displays the date, time, question, mentor response, mentor name, status, and available actions.",
+    "keywords": ["query details", "mentor name", "status", "date", "response"]
+  },
+  {
+    "id": "mentorship_012",
+    "question": "What should I do if I'm not satisfied with my mentor?",
+    "answer": "You can submit a mentor re-pairing request through the Mentorship module for admin review.",
+    "keywords": ["change mentor", "re-pairing", "mentor request", "unsatisfied", "mentor"]
+  },
+  {
+    "id": "mentorship_013",
+    "question": "How do I request a different mentor?",
+    "answer": "Open the Re-pairing Request section, choose a reason or provide additional details, and submit your request.",
+    "keywords": ["re-pairing request", "mentor change", "submit request", "mentor", "reassignment"]
+  },
+  {
+    "id": "mentorship_014",
+    "question": "What reasons can I choose when requesting a new mentor?",
+    "answer": "You can select reasons such as Unresponsive Mentor, Unsatisfactory Answer, Delayed Response, or provide another reason.",
+    "keywords": ["re-pairing reason", "unresponsive mentor", "delayed response", "mentor change", "reason"]
+  },
+  {
+    "id": "mentorship_015",
+    "question": "Can I submit multiple mentor change requests at the same time?",
+    "answer": "No. Only one active re-pairing request is allowed until the current request is resolved.",
+    "keywords": ["multiple requests", "mentor change", "active request", "re-pairing", "limit"]
+  },
+  {
+    "id": "mentorship_016",
+    "question": "What happens after I submit a mentor change request?",
+    "answer": "Your request remains pending until the administrator reviews and approves or rejects it.",
+    "keywords": ["pending", "admin approval", "mentor request", "status", "review"]
+  },
+  {
+    "id": "mentorship_017",
+    "question": "Who answers my questions while my mentor change request is pending?",
+    "answer": "Your current mentor continues to respond to your queries until a new mentor is officially assigned.",
+    "keywords": ["current mentor", "pending request", "queries", "mentor assignment", "support"]
+  },
+  {
+    "id": "mentorship_018",
+    "question": "How will I know when a new mentor has been assigned?",
+    "answer": "After the administrator approves your request, your mentor assignment is updated and the new mentor's details appear in your Mentorship page.",
+    "keywords": ["new mentor", "assignment", "approved", "mentor details", "update"]
+  },
+  {
+    "id": "mentorship_019",
+    "question": "Will I be asked to provide feedback about my mentor?",
+    "answer": "Yes. After your programme cycle is completed, you'll be invited to complete a mentorship feedback survey.",
+    "keywords": ["feedback", "survey", "mentor evaluation", "programme", "review"]
+  },
+  {
+    "id": "mentorship_020",
+    "question": "Why is the mentorship survey important?",
+    "answer": "Your feedback helps TEF evaluate mentor performance and supports mentor certification decisions.",
+    "keywords": ["survey", "mentor certification", "feedback", "evaluation", "assessment"]
+  },
+  {
+    "id": "mentorship_021",
+    "question": "What happens after I submit a mentor change request?",
+    "answer": "Your request remains pending until the administrator reviews and makes a decision.",
+    "keywords": ["pending", "review", "admin", "mentor request", "status"]
+  },
+  {
+    "id": "mentorship_022",
+    "question": "Will my current mentor continue helping me while my request is pending?",
+    "answer": "Yes. Your current mentor remains responsible for answering your queries until a new mentor is assigned.",
+    "keywords": ["current mentor", "pending request", "queries", "mentor support", "assignment"]
+  },
+  {
+    "id": "mentorship_023",
+    "question": "How will I know if a new mentor has been assigned?",
+    "answer": "Once approved, your Mentorship page will display the details of your newly assigned mentor.",
+    "keywords": ["new mentor", "assignment", "approved", "mentor details", "update"]
+  },
+  {
+    "id": "mentorship_024",
+    "question": "Can I see the status of my mentor change request?",
+    "answer": "Yes. The request status is updated as it progresses through the review process.",
+    "keywords": ["request status", "re-pairing", "pending", "approved", "tracking"]
+  },
+  {
+    "id": "mentorship_025",
+    "question": "Will I receive a mentorship survey?",
+    "answer": "Yes. After completing the programme cycle, you'll be invited to complete a mentorship feedback survey.",
+    "keywords": ["survey", "feedback", "mentor evaluation", "programme", "questionnaire"]
+  },
+  {
+    "id": "mentorship_026",
+    "question": "Why should I complete the mentorship survey?",
+    "answer": "Your feedback helps TEF evaluate mentor performance and supports certification decisions.",
+    "keywords": ["survey", "feedback", "mentor certification", "evaluation", "assessment"]
+  },
+  {
+    "id": "mentorship_027",
+    "question": "When can I complete the mentorship survey?",
+    "answer": "The survey becomes available after the programme process is completed and within the timeline defined by TEF.",
+    "keywords": ["survey timeline", "availability", "programme", "feedback", "deadline"]
+  },
+  {
+    "id": "mentorship_028",
+    "question": "Can I answer the mentorship survey more than once?",
+    "answer": "No. The mentorship survey can only be submitted once for each mentor.",
+    "keywords": ["survey", "one submission", "feedback", "mentor", "limit"]
+  },
+  {
+    "id": "mentorship_029",
+    "question": "Can I edit my survey after submitting it?",
+    "answer": "No. Submitted survey responses cannot be modified.",
+    "keywords": ["edit survey", "submitted survey", "feedback", "responses", "modify"]
+  },
+  {
+    "id": "mentorship_030",
+    "question": "Will I receive reminders to complete the survey?",
+    "answer": "Yes. TEF may send periodic email reminders until the survey deadline.",
+    "keywords": ["email reminder", "survey", "notification", "feedback", "deadline"]
+  },
+  {
+    "id": "mentorship_031",
+    "question": "What type of questions are included in the mentorship survey?",
+    "answer": "The survey contains rating-based questions with options ranging from Poor to Excellent, along with comments.",
+    "keywords": ["survey questions", "ratings", "poor", "excellent", "comments"]
+  },
+  {
+    "id": "mentorship_032",
+    "question": "Can I communicate with any mentor on the platform?",
+    "answer": "No. You can only interact with the mentor assigned to your profile.",
+    "keywords": ["assigned mentor", "communication", "mentor", "access", "restriction"]
+  },
+  {
+    "id": "mentorship_033",
+    "question": "Can I have more than one mentor at the same time?",
+    "answer": "No. Each entrepreneur is assigned one mentor at a time.",
+    "keywords": ["single mentor", "assignment", "mentor", "entrepreneur", "pairing"]
+  },
+  {
+    "id": "mentorship_034",
+    "question": "Can I view my mentor's contact details anytime?",
+    "answer": "Yes. Your assigned mentor's available contact details remain accessible from the Mentorship page.",
+    "keywords": ["mentor contact", "email", "phone", "details", "profile"]
+  },
+  {
+    "id": "mentorship_035",
+    "question": "Will my mentorship queries be saved?",
+    "answer": "Yes. All submitted mentorship queries and responses remain available in your query history.",
+    "keywords": ["history", "saved queries", "responses", "records", "mentor"]
+  },
+  {
+    "id": "mentorship_036",
+    "question": "Can I track all my mentorship activities?",
+    "answer": "Yes. Your Mentorship page allows you to monitor queries, responses, mentor details, and request statuses.",
+    "keywords": ["dashboard", "tracking", "queries", "mentor", "activities"]
+  },
+  {
+    "id": "mentorship_037",
+    "question": "Is mentorship available throughout my programme?",
+    "answer": "Mentorship is available according to the programme's mentorship process and mentor assignment.",
+    "keywords": ["programme", "mentorship", "availability", "mentor", "support"]
+  },
+  {
+    "id": "mentorship_038",
+    "question": "Can the chatbot answer questions about the Mentorship module?",
+    "answer": "Yes. The chatbot can explain mentorship features, workflows, and guide you through common processes.",
+    "keywords": ["chatbot", "mentorship", "help", "workflow", "support"]
+  },
+  {
+    "id": "mentorship_039",
+    "question": "Where can I check the progress of my mentorship requests?",
+    "answer": "You can monitor the status of your mentorship queries and mentor change requests from the Mentorship section.",
+    "keywords": ["progress", "status", "requests", "mentor change", "queries"]
+  },
+  {
+    "id": "mentorship_040",
+    "question": "What can I do through the Mentorship module?",
+    "answer": "You can view your mentor, ask questions, track responses, request a mentor change, complete surveys, and monitor your mentorship activities.",
+    "keywords": ["features", "mentorship", "queries", "survey", "mentor change"]
+  }
+]

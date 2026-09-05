@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mentorship_ts_001",
+    "question": "Why can't I access the Mentorship module?",
+    "answer": "Ensure you're logged into your Entrepreneur account. If the Mentorship option is still unavailable, your account may not yet be eligible for mentorship or the feature may not be enabled for your programme.",
+    "keywords": ["mentorship module", "access", "login", "dashboard", "missing"]
+  },
+  {
+    "id": "mentorship_ts_002",
+    "question": "Why can't I see my assigned mentor?",
+    "answer": "Your mentor may not have been assigned yet. If your programme has already started and no mentor is displayed, contact TEF support.",
+    "keywords": ["assigned mentor", "mentor missing", "mentor not showing", "assignment"]
+  },
+  {
+    "id": "mentorship_ts_003",
+    "question": "Why are my mentor's contact details missing?",
+    "answer": "Mentor details become available only after a mentor has been assigned. Refresh the page or contact support if the issue persists.",
+    "keywords": ["mentor details", "contact", "email", "phone", "missing"]
+  },
+  {
+    "id": "mentorship_ts_004",
+    "question": "Why can't I submit a new query?",
+    "answer": "Check that your query is complete and your internet connection is stable. If the issue continues, try refreshing the page or logging in again.",
+    "keywords": ["submit query", "ask query", "error", "query failed"]
+  },
+  {
+    "id": "mentorship_ts_005",
+    "question": "Why isn't my submitted query appearing?",
+    "answer": "Refresh the page to check whether the query has been saved. If it still doesn't appear, submit it again or contact support.",
+    "keywords": ["query missing", "submitted query", "history", "refresh"]
+  },
+  {
+    "id": "mentorship_ts_006",
+    "question": "Why can't I edit my query?",
+    "answer": "Queries can only be edited before your mentor submits a response. Once answered, they become read-only.",
+    "keywords": ["edit query", "locked", "read only", "answered"]
+  },
+  {
+    "id": "mentorship_ts_007",
+    "question": "Why can't I delete my query?",
+    "answer": "Queries can only be deleted before they receive a response from your mentor.",
+    "keywords": ["delete query", "answered", "locked", "remove"]
+  },
+  {
+    "id": "mentorship_ts_008",
+    "question": "Why is my query still marked as Unanswered?",
+    "answer": "Your mentor has not yet responded. Wait for a response or consider requesting a mentor change if delays continue.",
+    "keywords": ["unanswered", "pending", "mentor response", "delay"]
+  },
+  {
+    "id": "mentorship_ts_009",
+    "question": "Why hasn't my mentor responded yet?",
+    "answer": "Mentor response times may vary. If you experience a prolonged delay, you may submit a mentor re-pairing request.",
+    "keywords": ["mentor response", "delay", "waiting", "mentor"]
+  },
+  {
+    "id": "mentorship_ts_010",
+    "question": "Why can't I see my mentor's reply?",
+    "answer": "Refresh the Mentorship page. If the query status is 'Answered' but no response is visible, contact TEF support.",
+    "keywords": ["mentor reply", "response missing", "answered", "query"]
+  },
+  {
+    "id": "mentorship_ts_011",
+    "question": "Why isn't the query status updating?",
+    "answer": "Refresh the page or log in again. If the status remains incorrect, report the issue to TEF support.",
+    "keywords": ["status", "query status", "refresh", "bug"]
+  },
+  {
+    "id": "mentorship_ts_012",
+    "question": "Why can't I request a mentor change?",
+    "answer": "Ensure you don't already have an active re-pairing request. Only one request can remain active at a time.",
+    "keywords": ["mentor change", "re-pairing", "active request", "submit"]
+  },
+  {
+    "id": "mentorship_ts_013",
+    "question": "Why is my mentor change request still pending?",
+    "answer": "Re-pairing requests require review by the administrator before a decision is made.",
+    "keywords": ["pending", "mentor request", "admin review", "re-pairing"]
+  },
+  {
+    "id": "mentorship_ts_014",
+    "question": "Why wasn't my mentor changed immediately?",
+    "answer": "Mentor changes only occur after administrator approval. Your existing mentor remains assigned until then.",
+    "keywords": ["mentor change", "approval", "assignment", "pending"]
+  },
+  {
+    "id": "mentorship_ts_015",
+    "question": "Why is my previous mentor still answering my queries?",
+    "answer": "Until your re-pairing request is approved, your current mentor continues handling your queries.",
+    "keywords": ["previous mentor", "pending", "mentor assignment", "queries"]
+  },
+  {
+    "id": "mentorship_ts_016",
+    "question": "Why can't I submit another mentor change request?",
+    "answer": "Only one active mentor re-pairing request is allowed at any given time.",
+    "keywords": ["multiple requests", "mentor change", "active request"]
+  },
+  {
+    "id": "mentorship_ts_017",
+    "question": "Why isn't the survey available?",
+    "answer": "The mentorship survey becomes available only after the programme cycle reaches the survey stage.",
+    "keywords": ["survey", "not available", "feedback", "programme"]
+  },
+  {
+    "id": "mentorship_ts_018",
+    "question": "Why can't I open the mentorship survey?",
+    "answer": "Refresh the page and ensure your survey window is still open. Contact support if the issue persists.",
+    "keywords": ["survey", "open", "error", "feedback"]
+  },
+  {
+    "id": "mentorship_ts_019",
+    "question": "Why can't I submit the mentorship survey?",
+    "answer": "Make sure you've answered all required questions before submitting.",
+    "keywords": ["survey submission", "required fields", "submit", "feedback"]
+  },
+  {
+    "id": "mentorship_ts_020",
+    "question": "Why can't I edit my submitted survey?",
+    "answer": "Survey responses become final once submitted and cannot be modified.",
+    "keywords": ["edit survey", "submitted", "responses", "modify"]
+  },
+  {
+    "id": "mentorship_ts_021",
+    "question": "Why didn't I receive a survey notification?",
+    "answer": "Check your email inbox and spam folder. Notifications are sent periodically during the survey period.",
+    "keywords": ["survey notification", "email", "spam", "reminder"]
+  },
+  {
+    "id": "mentorship_ts_022",
+    "question": "Why can't I find my previous mentorship queries?",
+    "answer": "Try using the available date or status filters. Refresh the page if necessary.",
+    "keywords": ["query history", "missing", "filter", "search"]
+  },
+  {
+    "id": "mentorship_ts_023",
+    "question": "Why are the date filters not showing my queries?",
+    "answer": "Verify that you've selected the correct date range and clear any active filters.",
+    "keywords": ["date filter", "queries", "filter", "history"]
+  },
+  {
+    "id": "mentorship_ts_024",
+    "question": "Why can't I search my mentorship records?",
+    "answer": "Refresh the page and reapply the filters. Contact support if records still don't appear.",
+    "keywords": ["search", "history", "filter", "records"]
+  },
+  {
+    "id": "mentorship_ts_025",
+    "question": "Why is the Mentorship page loading slowly?",
+    "answer": "Slow loading may be caused by network connectivity. Refresh the page or try again later.",
+    "keywords": ["slow", "loading", "dashboard", "performance"]
+  },
+  {
+    "id": "mentorship_ts_026",
+    "question": "Why am I seeing an error while loading the Mentorship page?",
+    "answer": "Temporary server or network issues may cause loading errors. Refresh the page or try again later.",
+    "keywords": ["page error", "loading", "server", "network"]
+  },
+  {
+    "id": "mentorship_ts_027",
+    "question": "Why was I logged out while using the Mentorship module?",
+    "answer": "Your session may have expired. Log in again and continue using the module.",
+    "keywords": ["session expired", "logout", "login", "authentication"]
+  },
+  {
+    "id": "mentorship_ts_028",
+    "question": "Why can't I contact a different mentor?",
+    "answer": "You can only communicate with the mentor assigned to your profile.",
+    "keywords": ["assigned mentor", "different mentor", "communication"]
+  },
+  {
+    "id": "mentorship_ts_029",
+    "question": "Why does my mentor information appear outdated?",
+    "answer": "Refresh the page. If the displayed information is still incorrect, report it to TEF support.",
+    "keywords": ["mentor details", "incorrect", "outdated", "refresh"]
+  },
+  {
+    "id": "mentorship_ts_030",
+    "question": "Why isn't my mentor assignment updated?",
+    "answer": "Assignments are updated only after administrator approval of the re-pairing request.",
+    "keywords": ["assignment", "mentor", "approval", "update"]
+  },
+  {
+    "id": "mentorship_ts_031",
+    "question": "Why can't I access mentorship after logging in?",
+    "answer": "Ensure you're using your Entrepreneur account and that mentorship is available for your programme.",
+    "keywords": ["access", "programme", "entrepreneur", "login"]
+  },
+  {
+    "id": "mentorship_ts_032",
+    "question": "Why can't I submit a blank query?",
+    "answer": "Queries must contain meaningful information before they can be submitted.",
+    "keywords": ["blank query", "validation", "submit", "required"]
+  },
+  {
+    "id": "mentorship_ts_033",
+    "question": "Why is my mentor response delayed even after several days?",
+    "answer": "If your mentor remains unresponsive, consider submitting a mentor re-pairing request.",
+    "keywords": ["delayed response", "mentor", "re-pairing", "support"]
+  },
+  {
+    "id": "mentorship_ts_034",
+    "question": "Why am I unable to complete the survey before the deadline?",
+    "answer": "Survey submissions are only accepted within the timeline defined by TEF.",
+    "keywords": ["survey deadline", "late submission", "timeline"]
+  },
+  {
+    "id": "mentorship_ts_035",
+    "question": "Why can't I reopen a completed query?",
+    "answer": "Once a mentor responds, the query is considered complete and cannot be reopened.",
+    "keywords": ["closed query", "reopen", "answered", "completed"]
+  },
+  {
+    "id": "mentorship_ts_036",
+    "question": "Why can't I see the latest updates in the Mentorship module?",
+    "answer": "Refresh the page or sign out and sign back in to load the latest information.",
+    "keywords": ["refresh", "latest updates", "dashboard", "cache"]
+  },
+  {
+    "id": "mentorship_ts_037",
+    "question": "Why do I receive an unexpected error while using Mentorship?",
+    "answer": "Try refreshing the page, clearing your browser cache, or logging in again. Contact support if the issue continues.",
+    "keywords": ["unexpected error", "cache", "refresh", "support"]
+  },
+  {
+    "id": "mentorship_ts_038",
+    "question": "Why isn't the Mentorship dashboard displaying correctly?",
+    "answer": "Refresh your browser or try another supported browser. Persistent issues should be reported to TEF support.",
+    "keywords": ["dashboard", "display", "browser", "layout"]
+  },
+  {
+    "id": "mentorship_ts_039",
+    "question": "Why are my mentorship activities not updating?",
+    "answer": "Activity updates may take a short time to synchronize. Refresh the page and check again.",
+    "keywords": ["activity", "update", "sync", "dashboard"]
+  },
+  {
+    "id": "mentorship_ts_040",
+    "question": "Who should I contact if my mentorship issue isn't resolved?",
+    "answer": "If basic troubleshooting doesn't resolve your issue, contact TEF support through the official support channel for further assistance.",
+    "keywords": ["support", "help", "contact", "technical issue", "assistance"]
+  }
+]

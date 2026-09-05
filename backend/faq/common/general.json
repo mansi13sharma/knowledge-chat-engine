@@ -1,0 +1,146 @@
+[
+  {
+    "id": "general_024",
+    "question": "What is TEF?",
+    "answer": "TEF is the Tony Elumelu Foundation, the pan-African organization behind the TEF Entrepreneurship Programme. It has trained over 2.5 million young Africans and disbursed seed capital to more than 24,000 entrepreneurs across all 54 African countries. TEFConnect is the digital platform TEF runs to deliver these programs.",
+    "keywords": ["TEF", "Tony Elumelu Foundation", "foundation", "who is TEF", "about TEF", "TEF Entrepreneurship Programme"]
+  },
+  {
+    "id": "general_001",
+    "question": "What is TEFConnect?",
+    "answer": "TEF Connect is the Tony Elumelu Foundation's digital platform where entrepreneurs can access learning resources, mentorship, business support, pitching opportunities, monitoring activities, and other program services.",
+    "keywords": ["TEFConnect","TEF","tef", "Tony Elumelu Foundation", "platform", "entrepreneurs", "business support", "learning", "mentorship"]
+  },
+  {
+    "id": "general_002",
+    "question": "What can this chatbot help me with?",
+    "answer": "I can answer questions about the platform, guide you through different modules, explain processes, help you find information, and direct you to the appropriate support when needed.",
+    "keywords": ["chatbot", "help", "support", "platform", "modules", "guidance", "information"]
+  },
+  {
+    "id": "general_003",
+    "question": "Which modules can the chatbot assist with?",
+    "answer": "The chatbot can assist with LMS, Pitching, Mentorship, Monitoring & Evaluation (M&E), Audit, Verification, and other platform-related questions.",
+    "keywords": ["modules", "LMS", "Pitching", "Mentorship", "M&E", "Audit", "Verification"]
+  },
+  {
+    "id": "general_004",
+    "question": "Do I need to log in to use the chatbot?",
+    "answer": "You can access general information without logging in, but you need to log in to receive personalized responses related to your account, applications, or progress.",
+    "keywords": ["login", "account", "authentication", "personalized responses", "access"]
+  },
+  {
+    "id": "general_005",
+    "question": "Can the chatbot answer questions about my application?",
+    "answer": "Yes, if you're logged in, the chatbot can provide guidance and information related to your application where available.",
+    "keywords": ["application", "account", "logged in", "application status", "guidance"]
+  },
+  {
+    "id": "general_006",
+    "question": "What happens if the chatbot cannot answer my question?",
+    "answer": "If I cannot confidently answer your question, I'll guide you to the appropriate support channel or escalate your query for further assistance.",
+    "keywords": ["unable to answer", "support", "escalation", "help", "fallback"]
+  },
+  {
+    "id": "general_007",
+    "question": "Can I talk to a human support agent?",
+    "answer": "Yes. If your issue cannot be resolved through the chatbot, it can be escalated to a support agent.",
+    "keywords": ["human support", "support agent", "escalation", "customer service"]
+  },
+  {
+    "id": "general_008",
+    "question": "Does the chatbot remember our conversation?",
+    "answer": "The chatbot maintains conversation context during your session to provide better and more relevant responses.",
+    "keywords": ["conversation", "memory", "context", "chat history", "session"]
+  },
+  {
+    "id": "general_009",
+    "question": "Can I continue a previous chat session?",
+    "answer": "Yes, where supported, your conversation session can be resumed so you can continue from where you left off.",
+    "keywords": ["resume chat", "chat session", "conversation history", "continue conversation"]
+  },
+  {
+    "id": "general_010",
+    "question": "Does the chatbot support multiple languages?",
+    "answer": "Yes. The chatbot can detect your preferred language and respond accordingly. You can also switch languages manually if available.",
+    "keywords": ["languages", "multilingual", "language support", "translation", "preferred language"]
+  },
+  {
+    "id": "general_011",
+    "question": "Is my information secure?",
+    "answer": "Yes. User information is protected through security measures such as data encryption, masking of sensitive information, and privacy compliance.",
+    "keywords": ["security", "privacy", "data protection", "encryption", "sensitive information"]
+  },
+  {
+    "id": "general_012",
+    "question": "Can the chatbot give business advice?",
+    "answer": "The chatbot can provide guidance, recommendations, and educational information. For important decisions, you should also consult your assigned mentor or support team.",
+    "keywords": ["business advice", "guidance", "recommendations", "mentor", "support"]
+  },
+  {
+    "id": "general_013",
+    "question": "Can the chatbot improve my writing?",
+    "answer": "Yes. In the Pitching module, AI can provide suggestions to improve your executive summary, including grammar, clarity, tone, and structure.",
+    "keywords": ["writing", "grammar", "executive summary", "Pitching", "AI writing", "clarity"]
+  },
+  {
+    "id": "general_014",
+    "question": "Does the chatbot provide mentorship?",
+    "answer": "The chatbot includes an AI Virtual Mentor that offers entrepreneurship guidance and recommendations, but it does not replace human mentors.",
+    "keywords": ["virtual mentor", "AI mentor", "mentorship", "entrepreneurship", "guidance"]
+  },
+  {
+    "id": "general_015",
+    "question": "Can the chatbot help me navigate the platform?",
+    "answer": "Yes. The chatbot can guide you to the appropriate module, explain workflows, and suggest your next steps.",
+    "keywords": ["navigation", "platform", "workflow", "modules", "guide"]
+  },
+  {
+    "id": "general_016",
+    "question": "Why did the chatbot ask me to clarify my question?",
+    "answer": "Sometimes your question may be ambiguous or incomplete. Asking for clarification helps provide a more accurate answer.",
+    "keywords": ["clarification", "ambiguous question", "incomplete question", "accuracy"]
+  },
+  {
+    "id": "general_017",
+    "question": "Can I ask questions about any program stage?",
+    "answer": "Yes. The chatbot can provide guidance relevant to your current stage in the program when that information is available.",
+    "keywords": ["program stage", "journey", "guidance", "application stage", "support"]
+  },
+  {
+    "id": "general_018",
+    "question": "How quickly does the chatbot respond?",
+    "answer": "The chatbot is designed to provide responses in real time whenever possible.",
+    "keywords": ["response time", "real time", "speed", "performance"]
+  },
+  {
+    "id": "general_019",
+    "question": "What information can I ask the chatbot?",
+    "answer": "You can ask about platform features, modules, processes, learning resources, mentorship, pitching, verification, audit, application guidance, and general navigation.",
+    "keywords": ["information", "features", "modules", "platform", "mentorship", "pitching", "verification", "audit"]
+  },
+  {
+    "id": "general_020",
+    "question": "Can I provide feedback about the chatbot?",
+    "answer": "Yes. Your feedback helps improve chatbot responses and overall platform support.",
+    "keywords": ["feedback", "suggestions", "improvements", "chatbot", "support"]
+  },
+  {
+    "id": "general_021",
+    "question": "How do I reset my password?",
+    "answer": "Go to Settings > Account > Reset Password and follow the emailed link.",
+    "keywords": ["reset password", "forgot password", "password", "account settings", "login"]
+  },
+  {
+    "id": "general_022",
+    "question": "What are your support hours?",
+    "answer": "Our support team is available Monday to Friday, 9am to 6pm.",
+    "keywords": ["support hours", "working hours", "customer support", "availability", "office hours"]
+  },
+  {
+    "id": "general_023",
+    "question": "How do I contact support?",
+    "answer": "You can reach us via the in-app chat or by emailing support@example.com.",
+    "keywords": ["contact support", "support email", "help desk", "customer support", "in-app chat"]
+  }
+]

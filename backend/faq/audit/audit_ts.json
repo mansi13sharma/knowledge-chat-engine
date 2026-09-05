@@ -1,0 +1,242 @@
+[
+  {
+    "id": "audit_troubleshooting_001",
+    "question": "Why is my application still showing 'Not Started'?",
+    "answer": "Your application may not have entered the Audit Module yet. It must complete all required program stages before the audit begins.",
+    "keywords": ["not started", "audit status", "pending"]
+  },
+  {
+    "id": "audit_troubleshooting_002",
+    "question": "Why is my application stuck in 'In Progress'?",
+    "answer": "Your application is currently being reviewed. The audit process must be completed before a final decision is recorded.",
+    "keywords": ["in progress", "stuck", "review"]
+  },
+  {
+    "id": "audit_troubleshooting_003",
+    "question": "Why can't I edit my application anymore?",
+    "answer": "Once your application enters the Audit Module, further modifications are not allowed.",
+    "keywords": ["edit", "modify", "locked"]
+  },
+  {
+    "id": "audit_troubleshooting_004",
+    "question": "Why can't I submit additional documents?",
+    "answer": "Applications cannot be modified after they have entered the Audit Module.",
+    "keywords": ["documents", "upload", "submission"]
+  },
+  {
+    "id": "audit_troubleshooting_005",
+    "question": "Why hasn't my application moved to Finance?",
+    "answer": "Your application must first receive an Endorsed decision in the Audit Module before it can proceed to Finance.",
+    "keywords": ["finance", "endorsed", "next stage"]
+  },
+  {
+    "id": "audit_troubleshooting_006",
+    "question": "Why is my application marked as 'Queried'?",
+    "answer": "A query was raised during the audit review. The application remains in the Queried status until the review process continues.",
+    "keywords": ["queried", "query", "status"]
+  },
+  {
+    "id": "audit_troubleshooting_007",
+    "question": "Why was my application disqualified?",
+    "answer": "A Disqualified status means your application did not meet the audit requirements.",
+    "keywords": ["disqualified", "rejected"]
+  },
+  {
+    "id": "audit_troubleshooting_008",
+    "question": "I completed all program stages. Why am I not in Audit yet?",
+    "answer": "Your application enters the Audit Module only after all required prerequisites have been completed and processed.",
+    "keywords": ["audit entry", "requirements"]
+  },
+  {
+    "id": "audit_troubleshooting_009",
+    "question": "Why can't I access the Finance Module?",
+    "answer": "Only applications that have been endorsed during the Audit Module are eligible to proceed to Finance.",
+    "keywords": ["finance", "access denied"]
+  },
+  {
+    "id": "audit_troubleshooting_010",
+    "question": "Why is my audit taking longer than expected?",
+    "answer": "Your application remains under review until the audit process is completed and a final decision is recorded.",
+    "keywords": ["delay", "review", "audit"]
+  },
+  {
+    "id": "audit_troubleshooting_011",
+    "question": "Why is there no final decision yet?",
+    "answer": "Your application is still undergoing audit review. A decision is recorded only after the evaluation is completed.",
+    "keywords": ["decision", "pending"]
+  },
+  {
+    "id": "audit_troubleshooting_012",
+    "question": "Why can't I resubmit my application?",
+    "answer": "Resubmission is not allowed once a final audit decision has been recorded.",
+    "keywords": ["resubmit", "application"]
+  },
+  {
+    "id": "audit_troubleshooting_013",
+    "question": "Why can't I change my business information?",
+    "answer": "Application details cannot be changed after entering the Audit Module.",
+    "keywords": ["business information", "edit"]
+  },
+  {
+    "id": "audit_troubleshooting_014",
+    "question": "Why is my application still under review?",
+    "answer": "Your assigned Auditor is still evaluating your application before a final decision is made.",
+    "keywords": ["under review", "auditor"]
+  },
+  {
+    "id": "audit_troubleshooting_015",
+    "question": "My application status changed unexpectedly. Why?",
+    "answer": "Application status changes as it progresses through different stages of the Audit Module.",
+    "keywords": ["status changed", "workflow"]
+  },
+  {
+    "id": "audit_troubleshooting_016",
+    "question": "Why can't I make corrections after submitting?",
+    "answer": "Corrections are not permitted once the application has entered the Audit Module.",
+    "keywords": ["correction", "locked"]
+  },
+  {
+    "id": "audit_troubleshooting_017",
+    "question": "Why hasn't my status changed from Reviewed?",
+    "answer": "A final decision is recorded after the review process is completed.",
+    "keywords": ["reviewed", "status"]
+  },
+  {
+    "id": "audit_troubleshooting_018",
+    "question": "Why can't I skip the Audit Module?",
+    "answer": "The Audit Module is a mandatory stage before an application can proceed to Finance.",
+    "keywords": ["mandatory", "audit"]
+  },
+  {
+    "id": "audit_troubleshooting_019",
+    "question": "Why am I unable to update my profile?",
+    "answer": "Profile updates are not allowed after your application enters the Audit Module.",
+    "keywords": ["profile", "update"]
+  },
+  {
+    "id": "audit_troubleshooting_020",
+    "question": "Why can't I upload missing information now?",
+    "answer": "Applications cannot be modified after they have entered the Audit Module.",
+    "keywords": ["upload", "missing documents"]
+  },
+  {
+    "id": "audit_troubleshooting_021",
+    "question": "Why does my application still say 'Queried'?",
+    "answer": "The query raised during the audit process is still being handled before the review can continue.",
+    "keywords": ["queried", "pending"]
+  },
+  {
+    "id": "audit_troubleshooting_022",
+    "question": "Why is my application not eligible for funding?",
+    "answer": "Applications that receive a Disqualified decision do not meet the audit requirements for funding.",
+    "keywords": ["funding", "disqualified"]
+  },
+  {
+    "id": "audit_troubleshooting_023",
+    "question": "Why can't I see any audit updates?",
+    "answer": "Status updates are reflected as your application progresses through the audit process.",
+    "keywords": ["updates", "status"]
+  },
+  {
+    "id": "audit_troubleshooting_024",
+    "question": "Why is my application waiting for review?",
+    "answer": "Your application is waiting for evaluation by the assigned Auditor.",
+    "keywords": ["waiting", "review"]
+  },
+  {
+    "id": "audit_troubleshooting_025",
+    "question": "Why did my application move back to review?",
+    "answer": "An application may be returned to Review if additional evaluation is required.",
+    "keywords": ["back to review", "evaluation"]
+  },
+  {
+    "id": "audit_troubleshooting_026",
+    "question": "Why can't I reopen my application?",
+    "answer": "Applications cannot be reopened after a final audit decision has been recorded.",
+    "keywords": ["reopen", "application"]
+  },
+  {
+    "id": "audit_troubleshooting_027",
+    "question": "Why is my application still pending?",
+    "answer": "Pending statuses indicate that your application is still progressing through the audit workflow.",
+    "keywords": ["pending", "workflow"]
+  },
+  {
+    "id": "audit_troubleshooting_028",
+    "question": "Why is my application still being verified?",
+    "answer": "Your application is undergoing audit checks to verify eligibility before funding decisions are made.",
+    "keywords": ["verification", "eligibility"]
+  },
+  {
+    "id": "audit_troubleshooting_029",
+    "question": "Why can't I continue to the next stage?",
+    "answer": "You must successfully complete the Audit Module before moving to the next stage.",
+    "keywords": ["next stage", "audit"]
+  },
+  {
+    "id": "audit_troubleshooting_030",
+    "question": "Why am I unable to change my submitted responses?",
+    "answer": "Submitted responses are locked after the Audit Module begins.",
+    "keywords": ["responses", "edit"]
+  },
+  {
+    "id": "audit_troubleshooting_031",
+    "question": "Why hasn't my application been endorsed yet?",
+    "answer": "An Endorsed decision is recorded only after the audit review has been successfully completed.",
+    "keywords": ["endorsed", "pending"]
+  },
+  {
+    "id": "audit_troubleshooting_032",
+    "question": "Why do I still see 'In Progress' after several days?",
+    "answer": "Your application remains In Progress until the audit evaluation has been completed.",
+    "keywords": ["in progress", "delay"]
+  },
+  {
+    "id": "audit_troubleshooting_033",
+    "question": "Why isn't my application moving forward?",
+    "answer": "Your application must complete the current audit stage before progressing further.",
+    "keywords": ["progress", "audit"]
+  },
+  {
+    "id": "audit_troubleshooting_034",
+    "question": "Why can't I update my uploaded files?",
+    "answer": "Uploaded files cannot be changed after the Audit Module has started.",
+    "keywords": ["files", "documents", "upload"]
+  },
+  {
+    "id": "audit_troubleshooting_035",
+    "question": "Why is my application locked?",
+    "answer": "Applications become locked once they enter the Audit Module to preserve the integrity of the review process.",
+    "keywords": ["locked", "application"]
+  },
+  {
+    "id": "audit_troubleshooting_036",
+    "question": "Why does my status say Reviewed but not Endorsed?",
+    "answer": "Reviewed means the evaluation has been completed. A final decision is recorded afterward.",
+    "keywords": ["reviewed", "endorsed"]
+  },
+  {
+    "id": "audit_troubleshooting_037",
+    "question": "Why can't I bypass the review process?",
+    "answer": "Every entrepreneur must complete the Audit Module before funding eligibility is determined.",
+    "keywords": ["bypass", "review"]
+  },
+  {
+    "id": "audit_troubleshooting_038",
+    "question": "Why is my funding still pending?",
+    "answer": "Funding can only proceed after your application receives an Endorsed decision in the Audit Module.",
+    "keywords": ["funding", "pending"]
+  },
+  {
+    "id": "audit_troubleshooting_039",
+    "question": "Why am I unable to make any changes after endorsement?",
+    "answer": "Applications are no longer editable once a final audit decision has been recorded.",
+    "keywords": ["endorsed", "edit"]
+  },
+  {
+    "id": "audit_troubleshooting_040",
+    "question": "What should I do if I think my audit status is incorrect?",
+    "answer": "If your application status appears incorrect or does not reflect your progress, please contact TEF support for assistance.",
+    "keywords": ["incorrect status", "support", "help"]
+  }
+]
