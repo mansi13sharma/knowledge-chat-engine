@@ -76,10 +76,15 @@ def ingest_faqs(root: Path) -> int:
         source = str(file_path.relative_to(root))
 
         documents, metadatas, ids, questions = [], [], [], []
-        for entry in entries:
+        for i, entry in enumerate(entries):
             question = entry["question"].strip()
             answer = entry["answer"].strip()
             keywords = entry.get("keywords") or []
+            # "id" is optional in the source JSON — fall back to a stable id
+            # derived from the file + position so re-running ingestion without
+            # --reset doesn't create duplicate FAQ entries for content that
+            # never had a hand-assigned id.
+            entry_id = str(entry["id"]) if entry.get("id") else _document_id_for(f"{source}::{i}")
             documents.append(f"Q: {question}\nA: {answer}")
             questions.append(question)
             metadatas.append(
@@ -87,11 +92,11 @@ def ingest_faqs(root: Path) -> int:
                     "source": source,
                     "category":  _category_for(file_path, root),
                     "question": question,
-                    "id": entry["id"],
+                    "id": entry_id,
                     "keywords": ", ".join(keywords),
                 }
             )
-            ids.append(entry["id"])
+            ids.append(entry_id)
 
         if not documents:
             print(f"skip (empty): {file_path}")
