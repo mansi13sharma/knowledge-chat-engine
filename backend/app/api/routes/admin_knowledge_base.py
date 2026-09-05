@@ -6,10 +6,9 @@ running `scripts/ingest.py`. Shares the same ingestion/indexing logic as that
 CLI script (see `app/services/knowledge_base/`), so a document uploaded here
 is immediately retrievable by the existing chat RAG pipeline.
 
-TODO(production): these routes are unauthenticated. Before deploying this
-admin API anywhere but a local/portfolio environment, put it behind
-authentication/authorization (e.g. a dependency that checks an admin session
-or API key) — nothing here assumes or enforces who is calling it.
+Every route requires a valid admin session (see `app/services/auth.py` /
+`app/api/routes/admin_auth.py` for the single-account email/password login
+that issues that session token).
 """
 
 import logging
@@ -19,6 +18,7 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.db.session import get_db
+from app.services.auth import require_admin
 from app.services.knowledge_base.documents import (
     ValidationError,
     create_document,
@@ -46,7 +46,11 @@ from app.services.knowledge_base.ingestion import (
 )
 
 logger = logging.getLogger("app.api.routes.admin_knowledge_base")
-router = APIRouter(prefix="/api/admin/knowledge-base", tags=["admin-knowledge-base"])
+router = APIRouter(
+    prefix="/api/admin/knowledge-base",
+    tags=["admin-knowledge-base"],
+    dependencies=[Depends(require_admin)],
+)
 
 
 @router.post("/documents", status_code=201)

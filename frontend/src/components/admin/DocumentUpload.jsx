@@ -20,7 +20,7 @@ function DocumentUpload({ categories, onUploaded, onError }) {
       setFile(null);
       e.target.reset();
     } catch (err) {
-      onError(err.message);
+      onError(err);
     } finally {
       setBusy(false);
     }

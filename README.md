@@ -41,7 +41,7 @@ An admin dashboard at the frontend's `/admin` route lets you manage the chatbot'
 
 The manual CLI ingestion path (`python -m scripts.ingest ...`) still works and now shares the same underlying ingestion/indexing code as the admin API — see [`backend/README.md`](backend/README.md#ingestion).
 
-> **Security note**: the admin API (`/api/admin/knowledge-base/*`) has no authentication. It's structured so a dependency-based auth check can be added later, but as-is it should not be exposed on anything but a local/trusted environment — see the `TODO(production)` comment in `backend/app/api/routes/admin_knowledge_base.py`.
+- **Access**: the admin API and dashboard are gated by a single hardcoded email/password admin account — log in at `/admin` with the credentials configured via `ADMIN_EMAIL`/`ADMIN_PASSWORD_HASH`/`ADMIN_AUTH_SECRET` in `backend/.env` (see `backend/README.md#admin-auth`). This is a one-account design (no signup, no password reset) suited to a solo-admin portfolio deployment, not a multi-user production system.
 
 ## Getting started
 

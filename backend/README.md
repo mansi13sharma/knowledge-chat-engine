@@ -28,8 +28,9 @@ Fill in `.env`:
 | Key | Purpose |
 |---|---|
 | `GROQ_API_KEY` | Groq API key, used for every LLM call in the pipeline |
-| `GROQ_MODEL` | Groq model id (default `llama-3.3-70b-versatile`) |
-| `DATABASE_URL` | Postgres connection string, used only for `support_tickets` |
+| `GROQ_MODEL` | Groq model id (default `openai/gpt-oss-120b`) — pick one your key actually has access to, e.g. via `client.models.list()` |
+| `DATABASE_URL` | Postgres connection string, used for `support_tickets` and the `knowledge_documents` admin registry |
+| `ADMIN_EMAIL` / `ADMIN_PASSWORD_HASH` / `ADMIN_AUTH_SECRET` | Single admin login gating `/api/admin/*` — see "Admin auth" below |
 | `CHROMA_PERSIST_DIR` | Local folder Chroma persists to (default `./chroma_data`) |
 | `FAQ_DATA_DIR` / `KB_DATA_DIR` | Source folders for ingestion (default `./faq`, `./knowledgebase`) |
 | `FAQ_COLLECTION_NAME` / `KB_COLLECTION_NAME` | Chroma collection names |
@@ -81,9 +82,23 @@ For the knowledge-base collection specifically, `--reset` is no longer required 
 
 This same ingestion/indexing code is shared with the **admin knowledge-base API** below — uploading a file through the dashboard and running this CLI script both go through `app/services/knowledge_base/ingestion.py`, so there's one place that knows how to turn a file into indexed Chroma chunks.
 
+## Admin auth
+
+A single hardcoded admin account (`app/services/auth.py`, `app/api/routes/admin_auth.py`) gates every `/api/admin/*` route:
+
+- `POST /api/admin/auth/login` — body `{"email": "...", "password": "..."}`, returns `{"token": "...", "email": "..."}` on success, `401` otherwise.
+- Every route in the admin knowledge-base API below requires `Authorization: Bearer <token>` (enforced by the `require_admin` dependency attached to that whole router) — a missing/invalid/expired token gets `401`.
+- The token is an HMAC-signed `{email, exp}` payload (12h TTL by default, `ADMIN_SESSION_TTL_SECONDS`), not a database session — nothing to revoke server-side short of rotating `ADMIN_AUTH_SECRET`, which invalidates every outstanding token.
+- The password itself is never stored: `ADMIN_PASSWORD_HASH` is `HMAC-SHA256(ADMIN_AUTH_SECRET, password)`. Generate both for a new password:
+  ```
+  python -c "import secrets; print(secrets.token_hex(32))"                                            # -> ADMIN_AUTH_SECRET
+  python -c "import hmac,hashlib; print(hmac.new(b'<ADMIN_AUTH_SECRET>', b'<password>', hashlib.sha256).hexdigest())"  # -> ADMIN_PASSWORD_HASH
+  ```
+- This is a one-account, no-signup, no-password-reset design — appropriate for a solo-admin portfolio deployment, not a multi-user production system.
+
 ## Admin Knowledge Base API
 
-`app/api/routes/admin_knowledge_base.py`, mounted at `/api/admin/knowledge-base`, lets an admin manage knowledge-base documents over HTTP instead of the CLI — see the root [`README.md`](../README.md#knowledge-base-management) for the user-facing walkthrough and the frontend's `/admin` dashboard. Endpoints:
+`app/api/routes/admin_knowledge_base.py`, mounted at `/api/admin/knowledge-base`, lets an admin manage knowledge-base documents over HTTP instead of the CLI — see the root [`README.md`](../README.md#knowledge-base-management) for the user-facing walkthrough and the frontend's `/admin` dashboard. Every endpoint below requires the admin session described above. Endpoints:
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -95,7 +110,7 @@ This same ingestion/indexing code is shared with the **admin knowledge-base API*
 
 Document metadata (filename, category, status, chunk count, timestamps, error message) lives in the `knowledge_documents` table (`KnowledgeDocument` in `app/db/models.py`) — this is the source of truth for the dashboard, not in-memory state, so it survives a backend restart. Each Chroma chunk is tagged with the owning document's stable `document_id`, plus `filename`/`category`/`chunk` index and, for PDFs, a `page` number (never invented for formats without one) — this is what makes "delete/re-index this document's vectors only" possible without touching any other document's chunks.
 
-**Not yet done**: these routes have no authentication. They're structured so an auth dependency can be dropped in later, but as shipped, anyone who can reach the backend can upload/delete knowledge-base content — see the `TODO(production)` note at the top of `admin_knowledge_base.py`. Don't expose this beyond a local/trusted environment as-is.
+**Auth**: every route above requires an admin session — see `app/services/auth.py` and `app/api/routes/admin_auth.py` (`POST /api/admin/auth/login`). This is a single hardcoded email/password account (no user table, no signup, no password reset), configured via `ADMIN_EMAIL`/`ADMIN_PASSWORD_HASH`/`ADMIN_AUTH_SECRET` (see below) — appropriate for a solo-admin portfolio project, not a multi-admin production deployment.
 
 Run the test suite (isolated from the real `chroma_data/`/`knowledgebase/`/database via `tests/conftest.py`, which points every dependency at a temp directory before `app` is ever imported):
 

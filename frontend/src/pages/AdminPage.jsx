@@ -4,12 +4,15 @@ import DocumentUpload from "../components/admin/DocumentUpload";
 import DocumentTable from "../components/admin/DocumentTable";
 import DeleteDocumentModal from "../components/admin/DeleteDocumentModal";
 import Toast from "../components/admin/Toast";
+import AdminLogin from "../components/admin/AdminLogin";
 import { deleteDocument, getStats, listDocuments, reindexDocument } from "../services/knowledgeBaseApi";
+import { isLoggedIn, logout } from "../services/authApi";
 import "./AdminPage.css";
 
 const EMPTY_STATS = { total_documents: 0, total_chunks: 0, categories: 0 };
 
 function AdminPage() {
+  const [loggedIn, setLoggedIn] = useState(isLoggedIn());
   const [documents, setDocuments] = useState([]);
   const [stats, setStats] = useState(EMPTY_STATS);
   const [loading, setLoading] = useState(true);
@@ -32,15 +35,19 @@ function AdminPage() {
       setDocuments(docsRes.documents);
       setStats(statsRes);
     } catch (err) {
-      setLoadError(err.message);
+      if (err.isAuthError) {
+        setLoggedIn(false);
+      } else {
+        setLoadError(err.message);
+      }
     } finally {
       setLoading(false);
     }
   }, []);
 
   useEffect(() => {
-    refresh();
-  }, [refresh]);
+    if (loggedIn) refresh();
+  }, [loggedIn, refresh]);
 
   useEffect(() => {
     if (!toast) return undefined;
@@ -76,6 +83,10 @@ function AdminPage() {
       const result = await reindexDocument(doc.id);
       showToast("success", `${doc.filename} re-indexed. ${result.document.chunks} chunks.`);
     } catch (err) {
+      if (err.isAuthError) {
+        setLoggedIn(false);
+        return;
+      }
       showToast("error", err.message);
     } finally {
       setReindexingId(null);
@@ -92,17 +103,35 @@ function AdminPage() {
       setDeleteTarget(null);
       refresh();
     } catch (err) {
+      if (err.isAuthError) {
+        setLoggedIn(false);
+        return;
+      }
       showToast("error", err.message);
     } finally {
       setDeleting(false);
     }
   };
 
+  const handleLogout = () => {
+    logout();
+    setLoggedIn(false);
+  };
+
+  if (!loggedIn) {
+    return <AdminLogin onSuccess={() => setLoggedIn(true)} />;
+  }
+
   return (
     <div className="admin-shell">
       <header className="admin-header">
-        <h1>Knowledge Base</h1>
-        <p>Manage documents used by the AI assistant</p>
+        <div>
+          <h1>Knowledge Base</h1>
+          <p>Manage documents used by the AI assistant</p>
+        </div>
+        <button type="button" className="admin-logout-btn" onClick={handleLogout}>
+          Log out
+        </button>
       </header>
 
       <KnowledgeBaseStats stats={stats} />
@@ -110,7 +139,7 @@ function AdminPage() {
       <DocumentUpload
         categories={categories}
         onUploaded={handleUploaded}
-        onError={(msg) => showToast("error", msg)}
+        onError={(err) => (err.isAuthError ? setLoggedIn(false) : showToast("error", err.message))}
       />
 
       <section className="kb-card">

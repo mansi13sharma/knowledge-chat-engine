@@ -24,6 +24,14 @@ class Settings(BaseSettings):
     # tuned via env without touching code.
     kb_max_upload_mb: int = 10
 
+    # Single hardcoded admin account gating /api/admin/* — see app/services/auth.py.
+    # admin_password_hash is HMAC-SHA256(admin_auth_secret, password), never the
+    # plaintext password. admin_auth_secret also signs session tokens.
+    admin_email: str = ""
+    admin_password_hash: str = ""
+    admin_auth_secret: str = ""
+    admin_session_ttl_seconds: int = 60 * 60 * 12  # 12h
+
     faq_top_k: int = 3
     kb_top_k: int = 4
     # Cosine distance thresholds (lower = stricter match). Loosened by

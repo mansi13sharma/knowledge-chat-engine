@@ -10,6 +10,8 @@ client — the moment those modules are first imported, which for a fixture
 would already be too late.
 """
 
+import hashlib
+import hmac
 import os
 import shutil
 import tempfile
@@ -22,6 +24,16 @@ os.environ["FAQ_DATA_DIR"] = str(_TEST_ROOT / "faq")
 os.environ["DATABASE_URL"] = f"sqlite:///{_TEST_ROOT / 'test.db'}"
 os.environ.setdefault("GROQ_API_KEY", "test-key")
 
+# Fixed test-only admin account so admin-KB tests can authenticate without
+# touching the real ADMIN_* values in backend/.env.
+TEST_ADMIN_EMAIL = "admin@test.local"
+TEST_ADMIN_PASSWORD = "test-password"
+os.environ["ADMIN_EMAIL"] = TEST_ADMIN_EMAIL
+os.environ["ADMIN_AUTH_SECRET"] = "test-auth-secret"
+os.environ["ADMIN_PASSWORD_HASH"] = hmac.new(
+    os.environ["ADMIN_AUTH_SECRET"].encode(), TEST_ADMIN_PASSWORD.encode(), hashlib.sha256
+).hexdigest()
+
 import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 
@@ -33,6 +45,20 @@ from app.services.vectorstore.chroma_client import knowledge_base  # noqa: E402
 
 @pytest.fixture()
 def client():
+    """A TestClient already logged in as the test admin account — every
+    admin-KB test can call the protected routes directly without repeating
+    the login dance itself."""
+    with TestClient(app) as c:
+        login = c.post("/api/admin/auth/login", json={"email": TEST_ADMIN_EMAIL, "password": TEST_ADMIN_PASSWORD})
+        assert login.status_code == 200, login.text
+        c.headers["Authorization"] = f"Bearer {login.json()['token']}"
+        yield c
+
+
+@pytest.fixture()
+def anonymous_client():
+    """A TestClient with no session — for asserting protected routes reject
+    unauthenticated requests."""
     with TestClient(app) as c:
         yield c
 

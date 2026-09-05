@@ -32,10 +32,11 @@ Routing is a small custom history-API router (`src/App.jsx` + `src/router.js`) r
 
 **Admin (`/admin`)**
 
+- Gated by a login screen (`src/components/admin/AdminLogin.jsx`) — email/password, checked against the backend's single hardcoded admin account (see `../backend/README.md#admin-auth`). The session token lives in `localStorage` and is attached as `Authorization: Bearer <token>` to every admin API call (`src/services/api.js`); a `401` response clears it and drops back to the login screen. A "Log out" button in the dashboard header clears it manually.
 - Stat cards (total documents / chunks / categories), all backend-sourced (`GET /api/admin/knowledge-base/stats`).
 - Upload form (category + file) with an inline success/error toast — no `alert()`.
 - Document table with client-side search (filename) and category filter, re-index and delete actions (delete requires a confirmation modal), and a proper empty state when the knowledge base has no documents yet.
-- API calls live in `src/services/knowledgeBaseApi.js` (built on the shared `src/services/api.js` fetch wrapper), not scattered across components.
+- API calls live in `src/services/knowledgeBaseApi.js` / `src/services/authApi.js` (built on the shared `src/services/api.js` fetch wrapper), not scattered across components.
 
 ## Scripts
 
