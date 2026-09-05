@@ -27,3 +27,7 @@ Comment: Switched app/services/llm.py from OpenAI back to Groq (llama-3.3-70b-ve
 ## 2026-09-05 20:45
 Files Modified: backend/app/core/config.py, backend/app/services/auth.py, backend/app/api/routes/admin_auth.py, backend/app/api/routes/admin_knowledge_base.py, backend/app/main.py, backend/.env.example, backend/tests/conftest.py, backend/tests/test_admin_auth.py, backend/README.md, README.md, CLAUDE.md, frontend/src/services/api.js, frontend/src/services/authApi.js, frontend/src/components/admin/AdminLogin.jsx, frontend/src/pages/AdminPage.jsx, frontend/src/pages/AdminPage.css, frontend/src/components/admin/DocumentUpload.jsx, frontend/README.md
 Comment: Added single-account email/password authentication gating the admin dashboard and its API — a new POST /api/admin/auth/login issues an HMAC-signed session token (password stored only as an HMAC hash, never plaintext), and every /api/admin/knowledge-base/* route now requires it via a router-level require_admin dependency; added a frontend login screen (localStorage-persisted token, auto-drops to login on a 401, logout button).
+
+## 2026-09-05 21:00
+Files Modified: docs/ARCHITECTURE.md, README.md
+Comment: Added docs/ARCHITECTURE.md with Mermaid diagrams of the system overview, the LangGraph chat request flow, and the admin knowledge-base upload/reindex/delete sequence, plus a key-files table; linked it from the root README.

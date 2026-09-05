@@ -24,7 +24,7 @@ User → React chat UI → POST /chat → LangGraph pipeline → answer / escala
 - **Vector DB**: [Chroma](https://www.trychroma.com/), persisted locally, two collections (FAQ, knowledge base), local embeddings (no external embeddings API/key needed)
 - **Database**: PostgreSQL via SQLAlchemy (support tickets only)
 
-See [`backend/README.md`](backend/README.md) and [`frontend/README.md`](frontend/README.md) for setup details of each half, and [`CLAUDE.md`](CLAUDE.md) for the full architecture reference.
+See [`backend/README.md`](backend/README.md) and [`frontend/README.md`](frontend/README.md) for setup details of each half, [`CLAUDE.md`](CLAUDE.md) for the full architecture reference, and [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for diagrams of the system, the LangGraph chat flow, and the admin knowledge-base flow.
 
 ## Knowledge Base Management
 
