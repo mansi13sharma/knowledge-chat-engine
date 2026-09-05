@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What is a healthy balanced diet?",
+        "answer": "A healthy eating pattern includes a variety of nutritious foods such as vegetables, fruits, whole grains, pulses, nuts, seeds, and suitable protein foods while limiting foods high in free sugars, sodium, unhealthy fats, and excessive processing.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Why is protein important?",
+        "answer": "Protein provides amino acids that the body uses for building and repairing tissues and for many normal body processes. Active people can include protein-containing foods across their meals during the day.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "What are healthy sources of protein?",
+        "answer": "Protein can come from foods such as lentils, beans, chickpeas, soy foods, dairy products, eggs, fish, poultry, lean meats, nuts, and seeds. The best choices depend on dietary preferences and individual needs.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Are carbohydrates bad for health?",
+        "answer": "No. Carbohydrates are an important energy source. Whole grains, fruits, vegetables, and pulses are useful carbohydrate sources because they can also provide fibre, vitamins, and minerals.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "What are healthy fats?",
+        "answer": "Unsaturated fats found in foods such as nuts, seeds, some plant oils, avocados, and fish can be part of a healthy diet. Saturated and trans fats should generally be limited.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Why is fibre important?",
+        "answer": "Dietary fibre supports digestive health and can help meals feel more filling. Whole grains, vegetables, fruits, pulses, nuts, and seeds are common fibre sources.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "How much fruit and vegetables should I eat?",
+        "answer": "WHO guidance recommends that people older than 10 years aim for at least 400 grams of fruits and vegetables per day. Variety is useful because different foods provide different nutrients.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Why is drinking water important?",
+        "answer": "Water helps regulate body temperature, supports normal body functions, cushions joints, and helps the body remove waste. Fluid needs can increase with physical activity, hot weather, fever, vomiting, or diarrhea.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "How much water should I drink every day?",
+        "answer": "There is no single amount that is correct for everyone. Fluid needs vary with age, body size, diet, activity, climate, pregnancy, breastfeeding, and health. Drinking regularly and paying attention to thirst and conditions such as heat or exercise is a practical approach for many healthy adults.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Is water better than sugary drinks?",
+        "answer": "Water is a good routine hydration choice because it provides fluid without added sugar or calories. Replacing sugary drinks with water can reduce added sugar and calorie intake.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "What should I eat before exercise?",
+        "answer": "Before exercise, many people tolerate familiar foods containing carbohydrates along with some protein. Very heavy meals immediately before demanding exercise may cause discomfort, so meal size and timing should match the workout and personal tolerance.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "What should I eat after exercise?",
+        "answer": "For many recreational exercisers, a normal balanced meal containing protein, carbohydrates, fluids, and nutritious foods is suitable after training. Specialized recovery products are not required for everyone.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Do I need protein supplements to build muscle?",
+        "answer": "Not necessarily. Many people can meet their protein needs through food. Supplements can be convenient in some situations, but they are not required simply because someone performs strength training.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Should I completely avoid sugar?",
+        "answer": "You do not need to eliminate every source of sugar. WHO recommends limiting free sugars to less than 10 percent of total daily energy intake. Naturally occurring sugars in whole fruits come with other nutrients and fibre.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "How much salt should adults consume?",
+        "answer": "WHO recommends limiting sodium intake to less than 2 grams per day, which is equivalent to about 5 grams of salt. Individual medical needs may differ.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Is skipping meals good for weight loss?",
+        "answer": "Skipping meals is not required for weight management and can make some people overly hungry later. A sustainable eating pattern that supports appropriate energy intake, nutrition, activity, sleep, and long-term consistency is generally more useful than extreme restriction.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "What is a simple way to build a healthy meal?",
+        "answer": "A simple meal can include a protein source, vegetables or fruit, a whole-grain or pulse-based carbohydrate source, and a moderate amount of healthy fat. Exact portions depend on individual needs.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    },
+    {
+        "question": "Are fruits unhealthy because they contain sugar?",
+        "answer": "Whole fruits can be part of a healthy diet. They provide carbohydrates along with fibre, water, vitamins, minerals, and other nutrients. Whole fruit is different from foods and drinks containing large amounts of added or free sugars.",
+        "category": "healthcare",
+        "subcategory": "nutrition"
+    }
+]

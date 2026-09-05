@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What does a healthy lifestyle include?",
+        "answer": "A healthy lifestyle generally includes regular physical activity, nutritious food, adequate sleep, hydration, stress management, avoiding tobacco, limiting alcohol exposure, and using appropriate preventive healthcare.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How much sleep should an adult get?",
+        "answer": "Adults aged 18 to 60 are generally advised to get at least 7 hours of sleep per night. Sleep needs can vary between people and with age.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Why is sleep important for fitness?",
+        "answer": "Sleep supports recovery, concentration, mood, physical performance, and many normal body functions. Poor sleep can also make training and healthy routines harder to maintain.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How can I improve my sleep habits?",
+        "answer": "Try keeping a regular sleep and wake schedule, making the bedroom quiet and comfortable, reducing stimulating activities before bed, being physically active during the day, and avoiding caffeine late in the day if it affects your sleep.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Is sitting for long periods unhealthy?",
+        "answer": "Long periods of sedentary behavior are not ideal for health. Regular movement breaks, walking, standing for some tasks, and meeting weekly physical activity goals can help reduce sedentary time.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How can I become more active if I have a desk job?",
+        "answer": "You can add movement by taking short walking breaks, using stairs, walking during calls, standing periodically, walking before or after work, and scheduling exercise during the week.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Do short workouts still count?",
+        "answer": "Yes. Physical activity can be spread throughout the day and week. Short sessions can contribute to your total activity and can be easier to maintain when time is limited.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How important are rest days?",
+        "answer": "Rest and easier training days allow recovery from demanding exercise. The amount of rest needed depends on training intensity, experience, sleep, nutrition, and individual recovery.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How can I manage everyday stress?",
+        "answer": "Helpful habits can include regular physical activity, sufficient sleep, time outdoors, relaxation or breathing exercises, meditation, enjoyable activities, and talking with supportive people.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Can exercise help with stress?",
+        "answer": "Regular physical activity can support mental well-being and may help many people manage everyday stress. Exercise should be one part of a broader approach to health rather than a replacement for professional mental-health care when it is needed.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Is smoking harmful even if I exercise regularly?",
+        "answer": "Yes. Regular exercise does not cancel the health risks of smoking. Smoking increases the risk of conditions including heart disease, stroke, lung disease, and several cancers.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Does alcohol affect a healthy lifestyle?",
+        "answer": "Alcohol is associated with health risks, and risk generally increases with greater consumption. Drinking less reduces alcohol-related exposure, while not drinking avoids those risks.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "How can I build healthy habits that last?",
+        "answer": "Start with small actions that are easy to repeat. Attach new habits to existing routines, reduce obstacles, track weekly consistency, and avoid trying to change everything at once.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "What should I do if I miss several workouts?",
+        "answer": "Return to your normal routine without trying to compensate with extreme workouts. If you have been inactive for a longer period, begin with a manageable workload and build back gradually.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Is it necessary to follow a perfect diet and workout plan?",
+        "answer": "No. Long-term consistency matters more than having a perfect routine every day. A realistic plan that you can maintain is usually more useful than a very strict plan that quickly becomes difficult to follow.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Can a chatbot diagnose my health problem?",
+        "answer": "No. This assistant can provide general health education but should not diagnose diseases or determine the cause of personal symptoms. A qualified healthcare professional should evaluate medical concerns.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "Can the chatbot recommend medicine for my symptoms?",
+        "answer": "This assistant should not prescribe medicines or tell you to start, stop, or change medication. Medication decisions should be discussed with a qualified healthcare professional.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "When should I seek emergency medical help?",
+        "answer": "Seek emergency medical assistance for symptoms that may represent a serious emergency, such as severe difficulty breathing, severe chest pain or pressure, loss of consciousness, sudden severe weakness, or another rapidly worsening or life-threatening problem.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "What are some simple daily healthy habits?",
+        "answer": "Useful daily habits include moving regularly, eating nutritious foods, drinking water, getting enough sleep, taking breaks from long periods of sitting, and making time for relaxation and social connection.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    },
+    {
+        "question": "What is more important, diet or exercise?",
+        "answer": "Both contribute to health in different ways. Nutrition supplies energy and nutrients, while physical activity supports cardiovascular fitness, muscle function, mobility, and other aspects of health. Sleep and recovery are also important parts of a healthy routine.",
+        "category": "healthcare",
+        "subcategory": "healthy-lifestyle"
+    }
+]

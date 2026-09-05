@@ -1,0 +1,122 @@
+[
+    {
+        "question": "How much exercise should an adult do each week?",
+        "answer": "Most adults should aim for at least 150 minutes of moderate-intensity aerobic activity each week, or 75 minutes of vigorous activity, along with muscle-strengthening activities on at least 2 days per week.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is moderate-intensity exercise?",
+        "answer": "Moderate-intensity exercise raises your heart rate and breathing while still allowing you to talk. Examples include brisk walking, steady cycling, recreational swimming, and dancing.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is vigorous-intensity exercise?",
+        "answer": "Vigorous exercise makes you breathe much harder and usually makes speaking more than a few words at a time difficult. Examples include running, fast cycling, hard swimming, and some competitive sports.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Is walking considered exercise?",
+        "answer": "Yes. Walking is a form of physical activity and can improve cardiovascular fitness, mobility, and general health. Brisk walking can count toward weekly moderate-intensity activity.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "How many days a week should I do strength training?",
+        "answer": "Adults can aim to perform muscle-strengthening activities on at least 2 days each week. Training sessions should cover the major muscle groups.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is strength training?",
+        "answer": "Strength training is exercise that makes muscles work against resistance. Resistance can come from weights, resistance bands, machines, body weight, or other safe forms of resistance.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is cardio exercise?",
+        "answer": "Cardio exercise is physical activity that increases your heart rate and breathing for a sustained period. Walking, jogging, cycling, swimming, and dancing are common examples.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Should beginners do cardio or strength training?",
+        "answer": "A balanced beginner routine can include both cardio and strength training. Cardio supports heart and lung fitness, while strength training supports muscles, bones, movement, and physical function.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "How should a beginner start exercising?",
+        "answer": "Start with manageable sessions based on your current fitness level. Walking and simple full-body strength exercises are good starting options. Increase time, resistance, or difficulty gradually as your body adapts.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Do I need to exercise every day?",
+        "answer": "No. You can spread physical activity throughout the week. Rest and easier days can help the body recover, especially when doing harder cardio or strength training.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is progressive overload?",
+        "answer": "Progressive overload means gradually increasing the challenge placed on your body as you become stronger or fitter. This can involve adding resistance, repetitions, sets, distance, duration, or exercise difficulty.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Should I increase weight every workout?",
+        "answer": "No. Increase resistance when you can perform your current exercises with good control and the planned workload becomes consistently manageable. Progress does not need to happen during every workout.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is a warm-up?",
+        "answer": "A warm-up prepares your body for exercise by gradually increasing movement and practicing movements similar to those in your workout. It can include easy walking, cycling, mobility movements, and lighter practice sets.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Should I stretch before working out?",
+        "answer": "Controlled movement and dynamic mobility exercises can be useful before training. Long static stretches are usually better used separately or after exercise when flexibility is the main goal.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is mobility training?",
+        "answer": "Mobility training focuses on moving joints comfortably and with control through useful ranges of motion. It can support exercise technique and everyday movement.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "What is the difference between flexibility and mobility?",
+        "answer": "Flexibility describes how far muscles and related tissues can lengthen, while mobility describes how well you can actively control movement through a range of motion.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Is muscle soreness after exercise normal?",
+        "answer": "Mild muscle soreness can happen after a new or harder workout. Sharp pain, major swelling, joint instability, or pain that becomes worse during movement should not be treated as normal workout soreness.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Should I work out when my muscles are sore?",
+        "answer": "Light activity may be comfortable with mild soreness, but heavily training the same muscles again may not be necessary. Allow additional recovery when soreness significantly affects normal movement or exercise technique.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "Can I build fitness without going to a gym?",
+        "answer": "Yes. Walking, running, cycling, body-weight exercises, resistance bands, stairs, and home workouts can all contribute to improved fitness.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    },
+    {
+        "question": "When should I stop exercising and seek medical help?",
+        "answer": "Stop exercising and seek appropriate medical help if you experience concerning symptoms such as chest pain or pressure, fainting, severe or unusual shortness of breath, sudden weakness, confusion, or symptoms of a serious injury.",
+        "category": "healthcare",
+        "subcategory": "fitness"
+    }
+]
