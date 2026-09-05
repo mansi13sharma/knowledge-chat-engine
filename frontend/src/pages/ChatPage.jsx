@@ -53,10 +53,10 @@ function ChatPage() {
 
   // Suggestions for empty state — real questions verified against the FAQ/KB content
   const suggestions = [
-    { text: "How do I reset my password?", label: "Reset Password" },
-    { text: "How does a Mentor Admin pair an entrepreneur with a mentor?", label: "Mentor Pairing" },
-    { text: "How does an M&E Admin onboard a new enumerator?", label: "Enumerator Onboarding" },
-    { text: "What is the difference between an External Reviewer and a QA reviewer?", label: "Reviewer vs QA" }
+    { text: "How much exercise should an adult do each week?", label: "Weekly Exercise" },
+    { text: "What are the five components of physical fitness?", label: "Fitness Basics" },
+    { text: "What should I eat before and after a workout?", label: "Workout Nutrition" },
+    { text: "How can I improve my sleep habits?", label: "Better Sleep" }
   ];
 
   // Auto-scroll to the bottom of the chat
@@ -307,7 +307,7 @@ function ChatPage() {
         <div className="header-title-area">
           <div className="bot-avatar-main">🤖</div>
           <div className="header-text">
-            <h1>TEF AI Assistant</h1>
+            <h1>Fitness AI Assistant</h1>
             <div className="status-badge">
               <span className="status-dot" style={{ backgroundColor: isConnected ? "#2ec4b6" : "#e71d36" }} />
               {isConnected ? "Server Online" : "Server Offline"}
@@ -326,10 +326,10 @@ function ChatPage() {
         {messages.length === 0 ? (
           <div className="welcome-container">
             <div className="welcome-logo">🤖</div>
-            <h2>Welcome to TEF Support</h2>
+            <h2>Welcome to Your Fitness Assistant</h2>
             <p className="welcome-desc">
-              Ask any question about mentor creation, support ticket processing, or configuration settings.
-              Our RAG-powered agent is here to help!
+              Ask any question about exercise, strength and cardio training, nutrition and hydration, sleep, or
+              building healthy everyday habits. Our RAG-powered agent is here to help!
             </p>
             <div className="suggestions-title">Suggested questions:</div>
             <div className="suggestions-grid">
@@ -553,7 +553,7 @@ function ChatPage() {
           </button>
         </div>
         <div className="footer-info">
-          TEF Chatbot answers queries using local FAQs and Knowledge Base documents.
+          This assistant answers fitness, nutrition, and sleep questions using local FAQs and Knowledge Base documents.
         </div>
       </footer>
       </div>
