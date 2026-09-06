@@ -1,4 +1,4 @@
-# TEF Chatbot
+# Knowledge-chat-engine 
 
 A chatbot that answers user queries using FAQs and a knowledge base (RAG), orchestrated as a LangGraph pipeline. Low-confidence answers are escalated to a human support agent instead of being sent to the user.
 
